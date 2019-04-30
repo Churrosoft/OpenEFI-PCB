@@ -25995,6 +25995,27 @@ Based on the following sources:
 <wire x1="83.82" y1="-99.06" x2="83.82" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="AIN0" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="13"/>
+<wire x1="2.54" y1="-157.48" x2="-2.54" y2="-157.48" width="0.1524" layer="91"/>
+<label x="-10.16" y="-157.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AIN1" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="29"/>
+<wire x1="17.78" y1="-134.62" x2="22.86" y2="-134.62" width="0.1524" layer="91"/>
+<label x="22.86" y="-134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AIN4" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="12"/>
+<wire x1="2.54" y1="-154.94" x2="-2.54" y2="-154.94" width="0.1524" layer="91"/>
+<label x="-10.16" y="-154.94" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -26314,21 +26335,23 @@ Based on the following sources:
 <label x="-73.66" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="N$18_P" class="0">
 <segment>
 <pinref part="Q4" gate="G$1" pin="2"/>
 <wire x1="-12.7" y1="22.86" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="27.94" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="PB6"/>
+<label x="-17.78" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="N$20_N" class="0">
 <segment>
 <pinref part="Q4" gate="G$1" pin="1"/>
 <wire x1="-2.54" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="0" y1="22.86" x2="0" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="PB7"/>
 <wire x1="0" y1="25.4" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
+<label x="2.54" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AOUT0" class="0">
