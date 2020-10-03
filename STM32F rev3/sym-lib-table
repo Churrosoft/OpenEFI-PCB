@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name OpenEFI-STM32-rev3)(type Legacy)(uri "/home/fdsoftware/electronica/OpenEFI-PCB/library/OpenEFI-STM32F rev3.pretty/OpenEFI-STM32-rev3.lib")(options "")(descr ""))
+  (lib (name 2020-09-26_19-57-26)(type Legacy)(uri "/home/fdsoftware/electronica/OpenEFI-PCB/library/OpenEFI-STM32F rev3.pretty/2020-09-26_19-57-26.lib")(options "")(descr ""))
+)

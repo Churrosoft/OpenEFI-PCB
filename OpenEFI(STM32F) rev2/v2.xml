@@ -1,0 +1,2505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/fdsoftware/electronica/OpenEFI-PCB/rev1 KiCad/v2.sch</source>
+    <date>Sun May  3 20:45:30 2020</date>
+    <tool>Eeschema 5.1.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>v2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/v2_1/" tstamps="/5DCCE116/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>v2_1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/IO Principal/" tstamps="/5DCCE3E7/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>IO_Principal.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Inyectores/Encendido/" tstamps="/5DCCE514/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Inyectores%2fEncendido.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Relay/" tstamps="/5DCCE7E5/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Relay.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Sensores/" tstamps="/5DCCEA02/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Sensores.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Fuente/" tstamps="/5DCCEEEF/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Fuente.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R2">
+      <value>15k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>CC26D0CC</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>5k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>1B403FD6</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>24SN</value>
+      <footprint>v2:SO-08</footprint>
+      <libsource lib="v2-eagle-import" part="24SN" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>FEE713EA</tstamp>
+    </comp>
+    <comp ref="SJ1">
+      <value>SJW</value>
+      <footprint>v2:SJW</footprint>
+      <libsource lib="v2-eagle-import" part="SJW" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>44DD8191</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>5.1v</value>
+      <footprint>v2:ZDIO-5</footprint>
+      <libsource lib="v2-eagle-import" part="ZENER-DIODEZD-5" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>EE7DEA3A</tstamp>
+    </comp>
+    <comp ref="SV3">
+      <value>MA03-1</value>
+      <footprint>v2:MA03-1</footprint>
+      <libsource lib="v2-eagle-import" part="MA03-1" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>57E47A5C</tstamp>
+    </comp>
+    <comp ref="SV4">
+      <value>MA03-1</value>
+      <footprint>v2:MA03-1</footprint>
+      <libsource lib="v2-eagle-import" part="MA03-1" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>7D1713BF</tstamp>
+    </comp>
+    <comp ref="SV2">
+      <value>FE08-1</value>
+      <footprint>v2:FE08</footprint>
+      <libsource lib="v2-eagle-import" part="FE08-1" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>096D4319</tstamp>
+    </comp>
+    <comp ref="SV1">
+      <value>MA07-1</value>
+      <footprint>v2:MA07-1</footprint>
+      <libsource lib="v2-eagle-import" part="MA07-1" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>8548D00C</tstamp>
+    </comp>
+    <comp ref="U$1">
+      <value>STM32F103C8T6-MODULE</value>
+      <footprint>v2:STM32F103C8T6-MODULE</footprint>
+      <libsource lib="v2-eagle-import" part="STM32F103C8T6-MODULE" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>A8B04D1A</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC548</value>
+      <footprint>v2:TO92-EBC</footprint>
+      <libsource lib="v2-eagle-import" part="BC548" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>DA191B3C</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>D483747B</tstamp>
+    </comp>
+    <comp ref="PROG1">
+      <value>MA04-1</value>
+      <footprint>v2:MA04-1</footprint>
+      <libsource lib="v2-eagle-import" part="MA04-1" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>06D0EEAE</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148DO35-7</value>
+      <footprint>v2:DO35-7</footprint>
+      <libsource lib="v2-eagle-import" part="1N4148DO35-7" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>4EB806FC</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>LED3MM</value>
+      <footprint>v2:LED3MM</footprint>
+      <libsource lib="v2-eagle-import" part="LED3MM" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>D5D4A691</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>LED3MM</value>
+      <footprint>v2:LED3MM</footprint>
+      <libsource lib="v2-eagle-import" part="LED3MM" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>6A31474D</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>LED3MM</value>
+      <footprint>v2:LED3MM</footprint>
+      <libsource lib="v2-eagle-import" part="LED3MM" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>57046BE5</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>LED3MM</value>
+      <footprint>v2:LED3MM</footprint>
+      <libsource lib="v2-eagle-import" part="LED3MM" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>0D206A19</tstamp>
+    </comp>
+    <comp ref="LED5">
+      <value>LED3MM</value>
+      <footprint>v2:LED3MM</footprint>
+      <libsource lib="v2-eagle-import" part="LED3MM" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>9BD6F4E6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>AF631EA7</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>F8870A87</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>4EA54AE4</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>FC0C7BCC</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>D72D4FE0</tstamp>
+    </comp>
+    <comp ref="X2">
+      <value>F15HP</value>
+      <footprint>v2:F15HP</footprint>
+      <libsource lib="v2-eagle-import" part="F15HP" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>753049C4</tstamp>
+    </comp>
+    <comp ref="X3">
+      <value>F15HP</value>
+      <footprint>v2:F15HP</footprint>
+      <libsource lib="v2-eagle-import" part="F15HP" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>03A3F618</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>1053141206</value>
+      <footprint>v2:MOLEX_1053141206</footprint>
+      <libsource lib="v2-eagle-import" part="1053141206" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>2CE6A523</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>1053141206</value>
+      <footprint>v2:MOLEX_1053141206</footprint>
+      <libsource lib="v2-eagle-import" part="1053141206" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>F2D55355</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148DO35-7</value>
+      <footprint>v2:DO35-7</footprint>
+      <libsource lib="v2-eagle-import" part="1N4148DO35-7" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>BAC73F4F</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>MINI-USB_4P-85-32004-10X</value>
+      <footprint>v2:85-32004-10X</footprint>
+      <libsource lib="v2-eagle-import" part="MINI-USB_4P-85-32004-10X" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>DDF2E3E2</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>738598F1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148DO35-7</value>
+      <footprint>v2:DO35-7</footprint>
+      <libsource lib="v2-eagle-import" part="1N4148DO35-7" description=""/>
+      <sheetpath names="/v2_1/" tstamps="/5DCCE116/"/>
+      <tstamp>A2E1D69D</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>39-30-?06?</value>
+      <footprint>v2:39-30-?06?</footprint>
+      <libsource lib="v2-eagle-import" part="39-30-?06?" description=""/>
+      <sheetpath names="/IO Principal/" tstamps="/5DCCE3E7/"/>
+      <tstamp>F6E8D358</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>5.1v</value>
+      <footprint>v2:ZDIO-5</footprint>
+      <libsource lib="v2-eagle-import" part="ZENER-DIODEZD-5" description=""/>
+      <sheetpath names="/IO Principal/" tstamps="/5DCCE3E7/"/>
+      <tstamp>9B837665</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uf</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/IO Principal/" tstamps="/5DCCE3E7/"/>
+      <tstamp>FA8A4CFA</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>4067D</value>
+      <footprint>v2:SO24W</footprint>
+      <libsource lib="v2-eagle-import" part="4067D" description=""/>
+      <sheetpath names="/IO Principal/" tstamps="/5DCCE3E7/"/>
+      <tstamp>5ED25CA7</tstamp>
+    </comp>
+    <comp ref="DISPLAY1">
+      <value>MA04-1</value>
+      <footprint>v2:MA04-1</footprint>
+      <libsource lib="v2-eagle-import" part="MA04-1" description=""/>
+      <sheetpath names="/IO Principal/" tstamps="/5DCCE3E7/"/>
+      <tstamp>97776B5B</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>74595D</value>
+      <footprint>v2:SO16</footprint>
+      <libsource lib="v2-eagle-import" part="74595D" description=""/>
+      <sheetpath names="/IO Principal/" tstamps="/5DCCE3E7/"/>
+      <tstamp>F097018C</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>74595D</value>
+      <footprint>v2:SO16</footprint>
+      <libsource lib="v2-eagle-import" part="74595D" description=""/>
+      <sheetpath names="/IO Principal/" tstamps="/5DCCE3E7/"/>
+      <tstamp>CE8554D9</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>39-30-?04?</value>
+      <footprint>v2:39-30-?04?</footprint>
+      <libsource lib="v2-eagle-import" part="39-30-?04?" description=""/>
+      <sheetpath names="/IO Principal/" tstamps="/5DCCE3E7/"/>
+      <tstamp>528B8185</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>TE5</value>
+      <footprint>v2:TE5</footprint>
+      <libsource lib="v2-eagle-import" part="TE5" description=""/>
+      <sheetpath names="/IO Principal/" tstamps="/5DCCE3E7/"/>
+      <tstamp>3F277CF6</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC548</value>
+      <footprint>v2:TO92-EBC</footprint>
+      <libsource lib="v2-eagle-import" part="BC548" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>2D28B7B6</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BC558</value>
+      <footprint>v2:TO92-EBC</footprint>
+      <libsource lib="v2-eagle-import" part="BC558" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>08A07256</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>BC548</value>
+      <footprint>v2:TO92-EBC</footprint>
+      <libsource lib="v2-eagle-import" part="BC548" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>A3E817C2</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>BC558</value>
+      <footprint>v2:TO92-EBC</footprint>
+      <libsource lib="v2-eagle-import" part="BC558" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>2EFB3759</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>BC548</value>
+      <footprint>v2:TO92-EBC</footprint>
+      <libsource lib="v2-eagle-import" part="BC548" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>68AC602B</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>BC558</value>
+      <footprint>v2:TO92-EBC</footprint>
+      <libsource lib="v2-eagle-import" part="BC558" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>C137C053</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>BC548</value>
+      <footprint>v2:TO92-EBC</footprint>
+      <libsource lib="v2-eagle-import" part="BC548" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>32706EFB</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>BC558</value>
+      <footprint>v2:TO92-EBC</footprint>
+      <libsource lib="v2-eagle-import" part="BC558" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>950250A3</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>BC548</value>
+      <footprint>v2:TO92-EBC</footprint>
+      <libsource lib="v2-eagle-import" part="BC548" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>543048FC</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>BC558</value>
+      <footprint>v2:TO92-EBC</footprint>
+      <libsource lib="v2-eagle-import" part="BC558" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>8040EB22</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>BC548</value>
+      <footprint>v2:TO92-EBC</footprint>
+      <libsource lib="v2-eagle-import" part="BC548" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>A87D03F5</tstamp>
+    </comp>
+    <comp ref="Q13">
+      <value>BC558</value>
+      <footprint>v2:TO92-EBC</footprint>
+      <libsource lib="v2-eagle-import" part="BC558" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>B03D699C</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>BZY97</value>
+      <footprint>v2:F126Z12</footprint>
+      <libsource lib="v2-eagle-import" part="BZY97" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>8D141E84</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>BZY97</value>
+      <footprint>v2:F126Z12</footprint>
+      <libsource lib="v2-eagle-import" part="BZY97" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>DCE5EB0D</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>BZY97</value>
+      <footprint>v2:F126Z12</footprint>
+      <libsource lib="v2-eagle-import" part="BZY97" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>0CA8CD4D</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>BZY97</value>
+      <footprint>v2:F126Z12</footprint>
+      <libsource lib="v2-eagle-import" part="BZY97" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>2B8C609C</tstamp>
+    </comp>
+    <comp ref="QP2">
+      <value>IRLZ44N</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irlz44n.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRLZ44N" description="47A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DD101AA</tstamp>
+    </comp>
+    <comp ref="QP3">
+      <value>IRLZ44N</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irlz44n.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRLZ44N" description="47A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DD10ED9</tstamp>
+    </comp>
+    <comp ref="QP4">
+      <value>IRLZ44N</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irlz44n.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRLZ44N" description="47A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DD11E44</tstamp>
+    </comp>
+    <comp ref="QP5">
+      <value>IRLZ44N</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irlz44n.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRLZ44N" description="47A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DD42471</tstamp>
+    </comp>
+    <comp ref="QP1">
+      <value>IRLZ44N</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irlz44n.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRLZ44N" description="47A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DD05487</tstamp>
+    </comp>
+    <comp ref="QP6">
+      <value>IRLZ44N</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irlz44n.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRLZ44N" description="47A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DD419BC</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>R_Small</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DF502FC</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R_Small</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DF549B6</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>R_Small</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DF574E1</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>R_Small</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DF5A0E7</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>R_Small</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DF5DD0B</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>R_Small</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DF60876</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>R_Small</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DF644A2</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>R_Small</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DF66F5D</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R_Small</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DF6D1EE</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R_Small</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DF6FBC8</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>R_Small</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DFA0941</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>R_Small</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>5DFA3E11</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>BZY97</value>
+      <footprint>v2:F126Z12</footprint>
+      <libsource lib="v2-eagle-import" part="BZY97" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>58164064</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>BZY97</value>
+      <footprint>v2:F126Z12</footprint>
+      <libsource lib="v2-eagle-import" part="BZY97" description=""/>
+      <sheetpath names="/Inyectores/Encendido/" tstamps="/5DCCE514/"/>
+      <tstamp>64AFC188</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>2724FC92</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>1k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>29F8CE43</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>576F8E1E</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>1k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>EAA4ED35</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>1k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>6F55499C</tstamp>
+    </comp>
+    <comp ref="IC5">
+      <value>LM358D</value>
+      <footprint>v2:SO08</footprint>
+      <libsource lib="v2-eagle-import" part="LM358D" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>541775CA</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>2k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>777EB8CD</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>1k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>733DB3B0</tstamp>
+    </comp>
+    <comp ref="Q14">
+      <value>BD139</value>
+      <footprint>v2:TO126AV</footprint>
+      <libsource lib="v2-eagle-import" part="BD139" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>7D8E6011</tstamp>
+    </comp>
+    <comp ref="Q16">
+      <value>BD139</value>
+      <footprint>v2:TO126AV</footprint>
+      <libsource lib="v2-eagle-import" part="BD139" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>E35AFB5B</tstamp>
+    </comp>
+    <comp ref="Q15">
+      <value>BD139</value>
+      <footprint>v2:TO126AV</footprint>
+      <libsource lib="v2-eagle-import" part="BD139" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>541C8D8A</tstamp>
+    </comp>
+    <comp ref="Q17">
+      <value>BD139</value>
+      <footprint>v2:TO126AV</footprint>
+      <libsource lib="v2-eagle-import" part="BD139" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>1711413B</tstamp>
+    </comp>
+    <comp ref="Q19">
+      <value>BD139</value>
+      <footprint>v2:TO126AV</footprint>
+      <libsource lib="v2-eagle-import" part="BD139" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>DFCD7C00</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>49EAF907</tstamp>
+    </comp>
+    <comp ref="Q18">
+      <value>BD139</value>
+      <footprint>v2:TO126AV</footprint>
+      <libsource lib="v2-eagle-import" part="BD139" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>323115D8</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N4446</value>
+      <footprint>v2:DO35-10</footprint>
+      <libsource lib="v2-eagle-import" part="1N4446" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>01F958EF</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>1N4446</value>
+      <footprint>v2:DO35-10</footprint>
+      <libsource lib="v2-eagle-import" part="1N4446" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>279ED16D</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>1N4446</value>
+      <footprint>v2:DO35-10</footprint>
+      <libsource lib="v2-eagle-import" part="1N4446" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>1B9FE3C0</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>1N4446</value>
+      <footprint>v2:DO35-10</footprint>
+      <libsource lib="v2-eagle-import" part="1N4446" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>1213472B</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>1N4446</value>
+      <footprint>v2:DO35-10</footprint>
+      <libsource lib="v2-eagle-import" part="1N4446" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>2A336CCE</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>1N4446</value>
+      <footprint>v2:DO35-10</footprint>
+      <libsource lib="v2-eagle-import" part="1N4446" description=""/>
+      <sheetpath names="/Relay/" tstamps="/5DCCE7E5/"/>
+      <tstamp>5A7E911D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.001uF</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>6FDF76A1</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>C-EU025-025X050</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>A3D5F203</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>5.1v</value>
+      <footprint>v2:ZDIO-5</footprint>
+      <libsource lib="v2-eagle-import" part="ZENER-DIODEZD-5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>825287DC</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>R-US_0204_5</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>23E52A4A</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>R-US_0204_5</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>BC5DC3D2</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.001uF</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>64CACB14</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>C-EU025-025X050</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>3DDE4FFC</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>5.1v</value>
+      <footprint>v2:ZDIO-5</footprint>
+      <libsource lib="v2-eagle-import" part="ZENER-DIODEZD-5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>C873F440</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>R-US_0204_5</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>2DDEC18F</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>R-US_0204_5</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>65DA5C48</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.001uF</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>1BADDD36</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>C-EU025-025X050</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>13C5CE3E</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>5.1v</value>
+      <footprint>v2:ZDIO-5</footprint>
+      <libsource lib="v2-eagle-import" part="ZENER-DIODEZD-5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>4D63D52B</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>R-US_0204_5</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>D13E28F6</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>R-US_0204_5</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>D26DEDBB</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.001uF</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>601E569A</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>C-EU025-025X050</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>680A9BA4</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>5.1v</value>
+      <footprint>v2:ZDIO-5</footprint>
+      <libsource lib="v2-eagle-import" part="ZENER-DIODEZD-5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>9B646094</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>R-US_0204_5</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>F2191532</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>R-US_0204_5</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>153B66BB</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.001uF</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>C3E509E6</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>C-EU025-025X050</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>078671FA</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>5.1v</value>
+      <footprint>v2:ZDIO-5</footprint>
+      <libsource lib="v2-eagle-import" part="ZENER-DIODEZD-5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>209EB9EC</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>R-US_0204_5</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>3F95BDB5</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>R-US_0204_5</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>A11F1631</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.001uF</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>2DD47732</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>C-EU025-025X050</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>33D79F97</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>5.1v</value>
+      <footprint>v2:ZDIO-5</footprint>
+      <libsource lib="v2-eagle-import" part="ZENER-DIODEZD-5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>E1EFA303</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>R-US_0204_5</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>96D92D2F</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>R-US_0204_5</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>B36E0B28</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.001uF</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>1C26F6ED</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>C-EU025-025X050</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>7E67F890</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>5.1v</value>
+      <footprint>v2:ZDIO-5</footprint>
+      <libsource lib="v2-eagle-import" part="ZENER-DIODEZD-5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>0E15A75F</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>R-US_0204_5</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>D7A84792</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>R-US_0204_5</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>91716EEE</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.001uF</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>6FD29142</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>C-EU025-025X050</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>DBF13894</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>5.1v</value>
+      <footprint>v2:ZDIO-5</footprint>
+      <libsource lib="v2-eagle-import" part="ZENER-DIODEZD-5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>CCFE72EC</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>R-US_0204_5</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>A3BF83AF</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>R-US_0204_5</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>4F54DFE9</tstamp>
+    </comp>
+    <comp ref="IC6">
+      <value>LM358D</value>
+      <footprint>v2:SO08</footprint>
+      <libsource lib="v2-eagle-import" part="LM358D" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>C89599F4</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.001uf</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>B60B84E1</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>2k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>A6B2995B</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>0.22uf</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>292FC4D3</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>1k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>BB6FCBA0</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>1.5k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>99546203</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.001uf</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>06BA1162</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>2k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>EFDBCC36</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.22uf</value>
+      <footprint>v2:C025-025X050</footprint>
+      <libsource lib="v2-eagle-import" part="C-EU025-025X050" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>4C953764</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>1k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>6C0000A0</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>1.5k</value>
+      <footprint>v2:0204_5</footprint>
+      <libsource lib="v2-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/Sensores/" tstamps="/5DCCEA02/"/>
+      <tstamp>0088FB60</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BUZ11">
+      <aliases>
+        <alias>IRF3205</alias>
+        <alias>IRF540N</alias>
+        <alias>IRF740</alias>
+        <alias>IRLB8721PBF</alias>
+        <alias>IRLZ34N</alias>
+        <alias>IRLZ44N</alias>
+      </aliases>
+      <description>30A Id, 50V Vds, N-Channel Power MOSFET, TO-220</description>
+      <docs>http://www.fairchildsemi.com/ds/BU/BUZ11.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BUZ11</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="1053141206">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">1053141206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="1N4148DO35-7">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148DO35-7</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="1N4446">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4446</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="24SN">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">24SN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="39-30-?04?">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">39-30-?04?</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="39-30-?06?">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">39-30-?06?</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="4067D">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">4067D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X" type="output"/>
+        <pin num="2" name="X7" type="input"/>
+        <pin num="3" name="X6" type="input"/>
+        <pin num="4" name="X5" type="input"/>
+        <pin num="5" name="X4" type="input"/>
+        <pin num="6" name="X3" type="input"/>
+        <pin num="7" name="X2" type="input"/>
+        <pin num="8" name="X1" type="input"/>
+        <pin num="9" name="X0" type="input"/>
+        <pin num="10" name="A" type="input"/>
+        <pin num="11" name="B" type="input"/>
+        <pin num="12" name="VSS" type="power_in"/>
+        <pin num="13" name="D" type="input"/>
+        <pin num="14" name="C" type="input"/>
+        <pin num="15" name="INH" type="input"/>
+        <pin num="16" name="X15" type="input"/>
+        <pin num="17" name="X14" type="input"/>
+        <pin num="18" name="X13" type="input"/>
+        <pin num="19" name="X12" type="input"/>
+        <pin num="20" name="X11" type="input"/>
+        <pin num="21" name="X10" type="input"/>
+        <pin num="22" name="X9" type="input"/>
+        <pin num="23" name="X8" type="input"/>
+        <pin num="24" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="74595D">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">74595D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="3state"/>
+        <pin num="2" name="QC" type="3state"/>
+        <pin num="3" name="QD" type="3state"/>
+        <pin num="4" name="QE" type="3state"/>
+        <pin num="5" name="QF" type="3state"/>
+        <pin num="6" name="QG" type="3state"/>
+        <pin num="7" name="QH" type="3state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="QH*" type="3state"/>
+        <pin num="10" name="SCL" type="input"/>
+        <pin num="11" name="SCK" type="input"/>
+        <pin num="12" name="RCK" type="input"/>
+        <pin num="13" name="G" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="3state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="BC548">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC548</field>
+      </fields>
+      <pins>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="E" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="BC558">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC558</field>
+      </fields>
+      <pins>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="E" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="BD139">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BD139</field>
+      </fields>
+      <pins>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="E" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="BZY97">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BZY97</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="C-EU025-025X050">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-EU025-025X050</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="F15HP">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">F15HP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="G1" name="G1" type="passive"/>
+        <pin num="G2" name="G2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="FE08-1">
+      <fields>
+        <field name="Reference">SV</field>
+        <field name="Value">FE08-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="LED3MM">
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LED3MM</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="K" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="LM358D">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LM358D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="-IN" type="input"/>
+        <pin num="3" name="+IN" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+IN" type="input"/>
+        <pin num="6" name="-IN" type="input"/>
+        <pin num="7" name="OUT" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="MA03-1">
+      <fields>
+        <field name="Reference">SV</field>
+        <field name="Value">MA03-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="MA04-1">
+      <fields>
+        <field name="Reference">SV</field>
+        <field name="Value">MA04-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="MA07-1">
+      <fields>
+        <field name="Reference">SV</field>
+        <field name="Value">MA07-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="MINI-USB_4P-85-32004-10X">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">MINI-USB_4P-85-32004-10X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="R-US_0204_5">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-US_0204_5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="SJW">
+      <fields>
+        <field name="Reference">SJ</field>
+        <field name="Value">SJW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="STM32F103C8T6-MODULE">
+      <fields>
+        <field name="Value">STM32F103C8T6-MODULE</field>
+      </fields>
+      <pins>
+        <pin num="5V" name="5V" type="BiDi"/>
+        <pin num="3.3V_1" name="3.3V@1" type="BiDi"/>
+        <pin num="3.3V_2" name="3.3V@2" type="BiDi"/>
+        <pin num="GND_1" name="GND@1" type="BiDi"/>
+        <pin num="GND_2" name="GND@2" type="BiDi"/>
+        <pin num="GND_3" name="GND@3" type="power_in"/>
+        <pin num="PA_0" name="PA_0" type="BiDi"/>
+        <pin num="PA_1" name="PA_1" type="BiDi"/>
+        <pin num="PA_2" name="PA_2" type="BiDi"/>
+        <pin num="PA_3" name="PA_3" type="BiDi"/>
+        <pin num="PA_4" name="PA_4" type="BiDi"/>
+        <pin num="PA_5" name="PA_5" type="BiDi"/>
+        <pin num="PA_6" name="PA_6" type="BiDi"/>
+        <pin num="PA_7" name="PA_7" type="BiDi"/>
+        <pin num="PA_8" name="PA_8" type="BiDi"/>
+        <pin num="PA_9" name="PA_9" type="BiDi"/>
+        <pin num="PA_10" name="PA_10" type="BiDi"/>
+        <pin num="PA_11" name="PA_11" type="BiDi"/>
+        <pin num="PA_12" name="PA_12" type="BiDi"/>
+        <pin num="PA_15" name="PA_15" type="BiDi"/>
+        <pin num="PB_0" name="PB_0" type="BiDi"/>
+        <pin num="PB_1" name="PB_1" type="BiDi"/>
+        <pin num="PB_3" name="PB_3" type="BiDi"/>
+        <pin num="PB_4" name="PB_4" type="BiDi"/>
+        <pin num="PB_5" name="PB_5" type="BiDi"/>
+        <pin num="PB_6" name="PB_6" type="BiDi"/>
+        <pin num="PB_7" name="PB_7" type="BiDi"/>
+        <pin num="PB_8" name="PB_8" type="BiDi"/>
+        <pin num="PB_9" name="PB_9" type="BiDi"/>
+        <pin num="PB_10" name="PB_10" type="BiDi"/>
+        <pin num="PB_11" name="PB_11" type="BiDi"/>
+        <pin num="PB_12" name="PB_12" type="BiDi"/>
+        <pin num="PB_13" name="PB_13" type="BiDi"/>
+        <pin num="PB_14" name="PB_14" type="BiDi"/>
+        <pin num="PB_15" name="PB_15" type="BiDi"/>
+        <pin num="PC_13" name="PC_13" type="BiDi"/>
+        <pin num="PC_14" name="PC_14" type="BiDi"/>
+        <pin num="PC_15" name="PC_15" type="BiDi"/>
+        <pin num="RESET" name="RESET" type="BiDi"/>
+        <pin num="VB" name="VB" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="TE5">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">TE5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="v2-eagle-import" part="ZENER-DIODEZD-5">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER-DIODEZD-5</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/library/Transistor_FET.lib</uri>
+    </library>
+    <library logical="v2-eagle-import">
+      <uri>/home/fdsoftware/electronica/OpenEFI-PCB/rev1 KiCad/v2-eagle-import.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="CKPOUT">
+      <node ref="SV4" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C4" pin="2"/>
+      <node ref="D20" pin="A"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="D24" pin="A"/>
+      <node ref="IC2" pin="15"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D5" pin="A"/>
+      <node ref="F1" pin="1"/>
+      <node ref="P1" pin="4"/>
+      <node ref="P1" pin="3"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="IC2" pin="12"/>
+      <node ref="IC4" pin="8"/>
+      <node ref="IC3" pin="8"/>
+      <node ref="DISPLAY1" pin="1"/>
+      <node ref="IC3" pin="13"/>
+      <node ref="IC3" pin="10"/>
+      <node ref="IC4" pin="13"/>
+      <node ref="IC4" pin="10"/>
+      <node ref="Q17" pin="E"/>
+      <node ref="Q15" pin="E"/>
+      <node ref="Q19" pin="E"/>
+      <node ref="D16" pin="A"/>
+      <node ref="Q16" pin="E"/>
+      <node ref="Q14" pin="E"/>
+      <node ref="IC5" pin="4"/>
+      <node ref="R29" pin="1"/>
+      <node ref="Q3" pin="C"/>
+      <node ref="D17" pin="A"/>
+      <node ref="D15" pin="A"/>
+      <node ref="D14" pin="A"/>
+      <node ref="D12" pin="A"/>
+      <node ref="Q18" pin="E"/>
+      <node ref="Q5" pin="C"/>
+      <node ref="C13" pin="2"/>
+      <node ref="D23" pin="A"/>
+      <node ref="C18" pin="2"/>
+      <node ref="Q11" pin="C"/>
+      <node ref="IC6" pin="4"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="D25" pin="A"/>
+      <node ref="R48" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="R49" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="D22" pin="A"/>
+      <node ref="C5" pin="2"/>
+      <node ref="D18" pin="A"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="D21" pin="A"/>
+      <node ref="C11" pin="2"/>
+      <node ref="Q9" pin="C"/>
+      <node ref="Q7" pin="C"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="Q13" pin="C"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="D19" pin="A"/>
+      <node ref="SJ1" pin="2"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="U$1" pin="GND_1"/>
+      <node ref="U$1" pin="GND_2"/>
+      <node ref="U$1" pin="GND_3"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="SV3" pin="1"/>
+      <node ref="Q1" pin="E"/>
+      <node ref="X1" pin="4"/>
+      <node ref="SV4" pin="1"/>
+      <node ref="SV2" pin="1"/>
+      <node ref="SV2" pin="2"/>
+      <node ref="D4" pin="A"/>
+      <node ref="R3" pin="1"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="PROG1" pin="1"/>
+    </net>
+    <net code="3" name="B">
+      <node ref="IC2" pin="11"/>
+      <node ref="U$1" pin="PB_0"/>
+    </net>
+    <net code="4" name="Net-(U$1-PadPA_8)">
+      <node ref="U$1" pin="PA_8"/>
+    </net>
+    <net code="5" name="Net-(U$1-PadPA_4)">
+      <node ref="U$1" pin="PA_4"/>
+    </net>
+    <net code="6" name="Net-(U$1-PadPA_3)">
+      <node ref="U$1" pin="PA_3"/>
+    </net>
+    <net code="7" name="Net-(U$1-PadPA_2)">
+      <node ref="U$1" pin="PA_2"/>
+    </net>
+    <net code="8" name="Net-(U$1-PadPA_15)">
+      <node ref="U$1" pin="PA_15"/>
+    </net>
+    <net code="9" name="/v2_1/TX">
+      <node ref="PROG1" pin="2"/>
+      <node ref="U$1" pin="PA_10"/>
+    </net>
+    <net code="10" name="Net-(U$1-PadPA_1)">
+      <node ref="U$1" pin="PA_1"/>
+    </net>
+    <net code="11" name="Net-(U$1-Pad3.3V_2)">
+      <node ref="U$1" pin="3.3V_2"/>
+    </net>
+    <net code="12" name="/v2_1/IAC_A">
+      <node ref="SV1" pin="4"/>
+    </net>
+    <net code="13" name="/v2_1/IAC_B">
+      <node ref="SV1" pin="3"/>
+    </net>
+    <net code="14" name="Net-(LED4-PadK)">
+      <node ref="R7" pin="2"/>
+      <node ref="LED4" pin="K"/>
+    </net>
+    <net code="15" name="/v2_1/D-">
+      <node ref="U$1" pin="PA_11"/>
+      <node ref="X1" pin="2"/>
+    </net>
+    <net code="16" name="/v2_1/5V-USB">
+      <node ref="D3" pin="A"/>
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="17" name="AIN4">
+      <node ref="R39" pin="2"/>
+      <node ref="R38" pin="2"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="18" name="AIN1">
+      <node ref="R37" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="19" name="AIN0">
+      <node ref="C2" pin="1"/>
+      <node ref="R30" pin="2"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="20" name="Net-(LED5-PadK)">
+      <node ref="R8" pin="2"/>
+      <node ref="LED5" pin="K"/>
+    </net>
+    <net code="21" name="Net-(LED3-PadK)">
+      <node ref="R6" pin="2"/>
+      <node ref="LED3" pin="K"/>
+    </net>
+    <net code="22" name="Net-(LED2-PadK)">
+      <node ref="R5" pin="2"/>
+      <node ref="LED2" pin="K"/>
+    </net>
+    <net code="23" name="Net-(LED1-PadK)">
+      <node ref="LED1" pin="K"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="24" name="Net-(U$1-PadPC_15)">
+      <node ref="U$1" pin="PC_15"/>
+    </net>
+    <net code="25" name="/v2_1/MOSI">
+      <node ref="U$1" pin="PB_7"/>
+    </net>
+    <net code="26" name="/v2_1/MISO">
+      <node ref="U$1" pin="PB_6"/>
+    </net>
+    <net code="27" name="/v2_1/SCK">
+      <node ref="U$1" pin="PB_5"/>
+    </net>
+    <net code="28" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7"/>
+      <node ref="SJ1" pin="1"/>
+    </net>
+    <net code="29" name="RL6IN">
+      <node ref="Q18" pin="C"/>
+      <node ref="D16" pin="C"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="30" name="Net-(D1-PadA)">
+      <node ref="D1" pin="A"/>
+      <node ref="PROG1" pin="4"/>
+    </net>
+    <net code="31" name="/v2_1/D+">
+      <node ref="X1" pin="3"/>
+      <node ref="U$1" pin="PA_12"/>
+    </net>
+    <net code="32" name="Net-(X2-PadG2)">
+      <node ref="X2" pin="G2"/>
+    </net>
+    <net code="33" name="Net-(X3-Pad8)">
+      <node ref="X3" pin="8"/>
+    </net>
+    <net code="34" name="Net-(X3-Pad7)">
+      <node ref="X3" pin="7"/>
+    </net>
+    <net code="35" name="Net-(X3-Pad6)">
+      <node ref="X3" pin="6"/>
+    </net>
+    <net code="36" name="Net-(X3-Pad5)">
+      <node ref="X3" pin="5"/>
+    </net>
+    <net code="37" name="Net-(X3-Pad4)">
+      <node ref="X3" pin="4"/>
+    </net>
+    <net code="38" name="Net-(X3-Pad3)">
+      <node ref="X3" pin="3"/>
+    </net>
+    <net code="39" name="Net-(X3-Pad2)">
+      <node ref="X3" pin="2"/>
+    </net>
+    <net code="40" name="Net-(X3-Pad15)">
+      <node ref="X3" pin="15"/>
+    </net>
+    <net code="41" name="Net-(X3-Pad14)">
+      <node ref="X3" pin="14"/>
+    </net>
+    <net code="42" name="Net-(X3-Pad13)">
+      <node ref="X3" pin="13"/>
+    </net>
+    <net code="43" name="Net-(X3-Pad12)">
+      <node ref="X3" pin="12"/>
+    </net>
+    <net code="44" name="Net-(X3-Pad11)">
+      <node ref="X3" pin="11"/>
+    </net>
+    <net code="45" name="Net-(X3-Pad10)">
+      <node ref="X3" pin="10"/>
+    </net>
+    <net code="46" name="Net-(X3-Pad1)">
+      <node ref="X3" pin="1"/>
+    </net>
+    <net code="47" name="Net-(X3-Pad9)">
+      <node ref="X3" pin="9"/>
+    </net>
+    <net code="48" name="Net-(X2-PadG1)">
+      <node ref="X2" pin="G1"/>
+    </net>
+    <net code="49" name="Net-(X2-Pad9)">
+      <node ref="X2" pin="9"/>
+    </net>
+    <net code="50" name="Net-(X2-Pad8)">
+      <node ref="X2" pin="8"/>
+    </net>
+    <net code="51" name="Net-(X2-Pad7)">
+      <node ref="X2" pin="7"/>
+    </net>
+    <net code="52" name="Net-(X2-Pad6)">
+      <node ref="X2" pin="6"/>
+    </net>
+    <net code="53" name="Net-(X2-Pad5)">
+      <node ref="X2" pin="5"/>
+    </net>
+    <net code="54" name="Net-(X2-Pad4)">
+      <node ref="X2" pin="4"/>
+    </net>
+    <net code="55" name="Net-(X2-Pad3)">
+      <node ref="X2" pin="3"/>
+    </net>
+    <net code="56" name="Net-(X2-Pad2)">
+      <node ref="X2" pin="2"/>
+    </net>
+    <net code="57" name="Net-(X2-Pad15)">
+      <node ref="X2" pin="15"/>
+    </net>
+    <net code="58" name="Net-(X2-Pad14)">
+      <node ref="X2" pin="14"/>
+    </net>
+    <net code="59" name="Net-(X2-Pad13)">
+      <node ref="X2" pin="13"/>
+    </net>
+    <net code="60" name="Net-(X2-Pad12)">
+      <node ref="X2" pin="12"/>
+    </net>
+    <net code="61" name="Net-(X2-Pad11)">
+      <node ref="X2" pin="11"/>
+    </net>
+    <net code="62" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="63" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="64" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="65" name="Net-(X2-Pad10)">
+      <node ref="X2" pin="10"/>
+    </net>
+    <net code="66" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="67" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="68" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="69" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="70" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="71" name="Net-(X3-PadG2)">
+      <node ref="X3" pin="G2"/>
+    </net>
+    <net code="72" name="Net-(X3-PadG1)">
+      <node ref="X3" pin="G1"/>
+    </net>
+    <net code="73" name="Net-(U$1-PadPC_14)">
+      <node ref="U$1" pin="PC_14"/>
+    </net>
+    <net code="74" name="Net-(Q1-PadB)">
+      <node ref="R9" pin="2"/>
+      <node ref="Q1" pin="B"/>
+    </net>
+    <net code="75" name="Net-(U$1-PadVB)">
+      <node ref="U$1" pin="VB"/>
+    </net>
+    <net code="76" name="Net-(U$1-PadRESET)">
+      <node ref="U$1" pin="RESET"/>
+    </net>
+    <net code="77" name="Net-(U$1-PadPC_13)">
+      <node ref="U$1" pin="PC_13"/>
+    </net>
+    <net code="78" name="Net-(U$1-PadPB_9)">
+      <node ref="U$1" pin="PB_9"/>
+    </net>
+    <net code="79" name="Net-(U$1-PadPB_8)">
+      <node ref="U$1" pin="PB_8"/>
+    </net>
+    <net code="80" name="Net-(U$1-PadPB_3)">
+      <node ref="U$1" pin="PB_3"/>
+    </net>
+    <net code="81" name="Net-(U$1-PadPB_15)">
+      <node ref="U$1" pin="PB_15"/>
+    </net>
+    <net code="82" name="Net-(U$1-PadPB_14)">
+      <node ref="U$1" pin="PB_14"/>
+    </net>
+    <net code="83" name="Net-(U$1-PadPB_13)">
+      <node ref="U$1" pin="PB_13"/>
+    </net>
+    <net code="84" name="Net-(U$1-PadPB_12)">
+      <node ref="U$1" pin="PB_12"/>
+    </net>
+    <net code="85" name="SCL">
+      <node ref="IC1" pin="6"/>
+      <node ref="U$1" pin="PB_10"/>
+      <node ref="DISPLAY1" pin="4"/>
+    </net>
+    <net code="86" name="Net-(X2-Pad1)">
+      <node ref="X2" pin="1"/>
+    </net>
+    <net code="90" name="VBAT">
+      <node ref="R2" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="IC2" pin="21"/>
+      <node ref="D4" pin="C"/>
+    </net>
+    <net code="91" name="/v2_1/CKPIN">
+      <node ref="SV3" pin="2"/>
+    </net>
+    <net code="92" name="5V">
+      <node ref="R30" pin="1"/>
+      <node ref="R34" pin="1"/>
+      <node ref="R32" pin="1"/>
+      <node ref="R44" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="SV4" pin="3"/>
+      <node ref="SV3" pin="3"/>
+      <node ref="R42" pin="1"/>
+      <node ref="IC6" pin="8"/>
+      <node ref="SV2" pin="8"/>
+      <node ref="R40" pin="1"/>
+      <node ref="R38" pin="1"/>
+      <node ref="D2" pin="A"/>
+      <node ref="IC3" pin="16"/>
+      <node ref="IC2" pin="24"/>
+      <node ref="IC4" pin="16"/>
+      <node ref="DISPLAY1" pin="2"/>
+    </net>
+    <net code="93" name="RL3IN">
+      <node ref="J1" pin="3"/>
+      <node ref="Q15" pin="C"/>
+      <node ref="D13" pin="C"/>
+    </net>
+    <net code="94" name="LAMB1">
+      <node ref="R47" pin="1"/>
+    </net>
+    <net code="95" name="LAMB0">
+      <node ref="R46" pin="1"/>
+    </net>
+    <net code="96" name="ACC">
+      <node ref="SV2" pin="7"/>
+      <node ref="Q10" pin="C"/>
+      <node ref="Q8" pin="C"/>
+      <node ref="Q12" pin="C"/>
+      <node ref="Q6" pin="C"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Q2" pin="C"/>
+      <node ref="Q4" pin="C"/>
+    </net>
+    <net code="97" name="SDA">
+      <node ref="IC1" pin="5"/>
+      <node ref="U$1" pin="PB_11"/>
+      <node ref="DISPLAY1" pin="3"/>
+    </net>
+    <net code="98" name="RL2IN">
+      <node ref="D14" pin="C"/>
+      <node ref="J1" pin="2"/>
+      <node ref="Q16" pin="C"/>
+    </net>
+    <net code="99" name="RL1IN">
+      <node ref="D12" pin="C"/>
+      <node ref="J1" pin="1"/>
+      <node ref="Q14" pin="C"/>
+    </net>
+    <net code="100" name="/v2_1/SS">
+      <node ref="U$1" pin="PB_4"/>
+    </net>
+    <net code="101" name="/v2_1/L5">
+      <node ref="U$1" pin="PA_5"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="102" name="/v2_1/L4">
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="103" name="/v2_1/L3">
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="104" name="/v2_1/L2">
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="105" name="/v2_1/L1">
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="106" name="/v2_1/RX">
+      <node ref="U$1" pin="PA_9"/>
+      <node ref="PROG1" pin="3"/>
+    </net>
+    <net code="107" name="D">
+      <node ref="U$1" pin="PA_6"/>
+      <node ref="IC2" pin="13"/>
+    </net>
+    <net code="108" name="/v2_1/LED1A">
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="109" name="A1">
+      <node ref="IC5" pin="1"/>
+      <node ref="IC5" pin="2"/>
+      <node ref="U$1" pin="PA_0"/>
+    </net>
+    <net code="110" name="3V3">
+      <node ref="IC5" pin="8"/>
+      <node ref="U$1" pin="3.3V_1"/>
+    </net>
+    <net code="111" name="PWM">
+      <node ref="SV1" pin="7"/>
+    </net>
+    <net code="112" name="/v2_1/5V1">
+      <node ref="U$1" pin="5V"/>
+      <node ref="D1" pin="C"/>
+      <node ref="LED5" pin="A"/>
+      <node ref="LED3" pin="A"/>
+      <node ref="LED2" pin="A"/>
+      <node ref="LED1" pin="A"/>
+      <node ref="D3" pin="C"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="D2" pin="C"/>
+      <node ref="LED4" pin="A"/>
+    </net>
+    <net code="113" name="RL5IN">
+      <node ref="D17" pin="C"/>
+      <node ref="Q19" pin="C"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="114" name="/v2_1/TPSM_B">
+      <node ref="SV1" pin="5"/>
+    </net>
+    <net code="115" name="/v2_1/TPSM_A">
+      <node ref="SV1" pin="6"/>
+    </net>
+    <net code="116" name="/v2_1/LED1">
+      <node ref="Q1" pin="C"/>
+    </net>
+    <net code="117" name="GNC/GLP_MODE">
+      <node ref="D5" pin="C"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="118" name="M4">
+      <node ref="SV2" pin="3"/>
+      <node ref="IC3" pin="3"/>
+    </net>
+    <net code="119" name="C">
+      <node ref="U$1" pin="PA_7"/>
+      <node ref="IC2" pin="14"/>
+    </net>
+    <net code="120" name="A">
+      <node ref="U$1" pin="PB_1"/>
+      <node ref="IC2" pin="10"/>
+    </net>
+    <net code="121" name="RL4IN">
+      <node ref="D15" pin="C"/>
+      <node ref="J1" pin="4"/>
+      <node ref="Q17" pin="C"/>
+    </net>
+    <net code="123" name="M3">
+      <node ref="SV2" pin="4"/>
+      <node ref="IC3" pin="2"/>
+    </net>
+    <net code="124" name="M2">
+      <node ref="IC3" pin="1"/>
+      <node ref="SV2" pin="5"/>
+    </net>
+    <net code="125" name="M1">
+      <node ref="IC3" pin="15"/>
+      <node ref="SV2" pin="6"/>
+    </net>
+    <net code="126" name="/v2_1/IAC_C">
+      <node ref="SV1" pin="2"/>
+    </net>
+    <net code="127" name="/v2_1/IAC_D">
+      <node ref="SV1" pin="1"/>
+    </net>
+    <net code="129" name="INY3">
+      <node ref="QP5" pin="2"/>
+      <node ref="D10" pin="C"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="130" name="INY1">
+      <node ref="D6" pin="C"/>
+      <node ref="QP1" pin="2"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="131" name="GND2">
+      <node ref="D6" pin="A"/>
+      <node ref="D9" pin="A"/>
+      <node ref="D7" pin="A"/>
+      <node ref="F1" pin="2"/>
+      <node ref="QP6" pin="3"/>
+      <node ref="D11" pin="A"/>
+      <node ref="QP2" pin="3"/>
+      <node ref="QP3" pin="3"/>
+      <node ref="QP1" pin="3"/>
+      <node ref="QP5" pin="3"/>
+      <node ref="QP4" pin="3"/>
+      <node ref="D10" pin="A"/>
+      <node ref="D8" pin="A"/>
+    </net>
+    <net code="132" name="INY5">
+      <node ref="P2" pin="5"/>
+      <node ref="QP4" pin="2"/>
+      <node ref="D9" pin="C"/>
+    </net>
+    <net code="133" name="AOUT7">
+      <node ref="C13" pin="1"/>
+      <node ref="R41" pin="1"/>
+      <node ref="IC2" pin="9"/>
+      <node ref="D23" pin="C"/>
+    </net>
+    <net code="134" name="AOUT6">
+      <node ref="IC2" pin="8"/>
+      <node ref="R35" pin="1"/>
+      <node ref="D20" pin="C"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="135" name="AOUT5">
+      <node ref="D25" pin="C"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="C17" pin="1"/>
+      <node ref="R45" pin="1"/>
+    </net>
+    <net code="136" name="AOUT4">
+      <node ref="R39" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="IC2" pin="6"/>
+      <node ref="D22" pin="C"/>
+    </net>
+    <net code="137" name="/IO Principal/SCK2">
+      <node ref="IC4" pin="11"/>
+      <node ref="IC3" pin="11"/>
+    </net>
+    <net code="138" name="A0">
+      <node ref="R28" pin="1"/>
+      <node ref="IC2" pin="1"/>
+    </net>
+    <net code="139" name="RL2">
+      <node ref="IC3" pin="5"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="140" name="/IO Principal/EX2">
+      <node ref="IC4" pin="2"/>
+    </net>
+    <net code="141" name="/IO Principal/EX1">
+      <node ref="IC4" pin="1"/>
+    </net>
+    <net code="142" name="RL4">
+      <node ref="IC3" pin="7"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="143" name="RL3">
+      <node ref="R23" pin="1"/>
+      <node ref="IC3" pin="6"/>
+    </net>
+    <net code="144" name="RL1">
+      <node ref="R22" pin="1"/>
+      <node ref="IC3" pin="4"/>
+    </net>
+    <net code="145" name="Net-(IC3-Pad9)">
+      <node ref="IC4" pin="14"/>
+      <node ref="IC3" pin="9"/>
+    </net>
+    <net code="146" name="/IO Principal/RCK">
+      <node ref="IC3" pin="12"/>
+      <node ref="IC4" pin="12"/>
+    </net>
+    <net code="147" name="/IO Principal/EX7">
+      <node ref="IC4" pin="7"/>
+    </net>
+    <net code="148" name="RL5">
+      <node ref="R27" pin="1"/>
+      <node ref="IC4" pin="15"/>
+    </net>
+    <net code="149" name="/IO Principal/EX6">
+      <node ref="IC4" pin="6"/>
+    </net>
+    <net code="150" name="/IO Principal/EX5">
+      <node ref="IC4" pin="5"/>
+    </net>
+    <net code="151" name="/IO Principal/EX4">
+      <node ref="IC4" pin="4"/>
+    </net>
+    <net code="152" name="/IO Principal/EX3">
+      <node ref="IC4" pin="3"/>
+    </net>
+    <net code="153" name="Net-(IC4-Pad9)">
+      <node ref="IC4" pin="9"/>
+    </net>
+    <net code="154" name="AOUT3">
+      <node ref="C6" pin="1"/>
+      <node ref="D19" pin="C"/>
+      <node ref="R33" pin="1"/>
+      <node ref="IC2" pin="5"/>
+    </net>
+    <net code="155" name="LAMB0OUT">
+      <node ref="C20" pin="1"/>
+      <node ref="R50" pin="2"/>
+      <node ref="IC2" pin="23"/>
+      <node ref="IC6" pin="1"/>
+    </net>
+    <net code="156" name="INY6">
+      <node ref="P2" pin="6"/>
+      <node ref="D11" pin="C"/>
+      <node ref="QP6" pin="2"/>
+    </net>
+    <net code="157" name="INY4">
+      <node ref="P2" pin="4"/>
+      <node ref="D7" pin="C"/>
+      <node ref="QP2" pin="2"/>
+    </net>
+    <net code="158" name="INY2">
+      <node ref="P2" pin="2"/>
+      <node ref="D8" pin="C"/>
+      <node ref="QP3" pin="2"/>
+    </net>
+    <net code="159" name="/IO Principal/AUX2">
+      <node ref="IC2" pin="19"/>
+    </net>
+    <net code="160" name="/IO Principal/AUX5">
+      <node ref="IC2" pin="16"/>
+    </net>
+    <net code="161" name="/IO Principal/AUX4">
+      <node ref="IC2" pin="17"/>
+    </net>
+    <net code="162" name="/IO Principal/AUX3">
+      <node ref="IC2" pin="18"/>
+    </net>
+    <net code="163" name="INYL1A">
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="164" name="/IO Principal/AUX1">
+      <node ref="IC2" pin="20"/>
+    </net>
+    <net code="165" name="LAMB1OUT">
+      <node ref="C21" pin="1"/>
+      <node ref="IC5" pin="7"/>
+      <node ref="IC2" pin="22"/>
+      <node ref="R51" pin="2"/>
+    </net>
+    <net code="167" name="/IO Principal/SER">
+      <node ref="IC3" pin="14"/>
+    </net>
+    <net code="169" name="INYL4A">
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="170" name="INYL3A">
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="171" name="INYL2A">
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="172" name="AOUT2">
+      <node ref="IC2" pin="4"/>
+      <node ref="R43" pin="1"/>
+      <node ref="D24" pin="C"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="173" name="AOUT1">
+      <node ref="IC2" pin="3"/>
+      <node ref="D21" pin="C"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="174" name="AOUT0">
+      <node ref="IC2" pin="2"/>
+      <node ref="D18" pin="C"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="175" name="Net-(QP2-Pad1)">
+      <node ref="R11" pin="2"/>
+      <node ref="QP2" pin="1"/>
+    </net>
+    <net code="176" name="Net-(QP3-Pad1)">
+      <node ref="QP3" pin="1"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="177" name="Net-(QP4-Pad1)">
+      <node ref="QP4" pin="1"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="178" name="Net-(Q2-PadB)">
+      <node ref="R12" pin="2"/>
+      <node ref="Q3" pin="B"/>
+      <node ref="Q2" pin="B"/>
+    </net>
+    <net code="179" name="Net-(Q2-PadE)">
+      <node ref="Q3" pin="E"/>
+      <node ref="Q2" pin="E"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="180" name="Net-(QP1-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="QP1" pin="1"/>
+    </net>
+    <net code="181" name="Net-(QP6-Pad1)">
+      <node ref="QP6" pin="1"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="182" name="Net-(Q6-PadB)">
+      <node ref="Q6" pin="B"/>
+      <node ref="R16" pin="2"/>
+      <node ref="Q7" pin="B"/>
+    </net>
+    <net code="183" name="Net-(Q4-PadE)">
+      <node ref="Q4" pin="E"/>
+      <node ref="R11" pin="1"/>
+      <node ref="Q5" pin="E"/>
+    </net>
+    <net code="184" name="Net-(Q4-PadB)">
+      <node ref="Q5" pin="B"/>
+      <node ref="Q4" pin="B"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="185" name="Net-(Q8-PadB)">
+      <node ref="Q9" pin="B"/>
+      <node ref="R17" pin="2"/>
+      <node ref="Q8" pin="B"/>
+    </net>
+    <net code="186" name="Net-(Q10-PadB)">
+      <node ref="R20" pin="2"/>
+      <node ref="Q10" pin="B"/>
+      <node ref="Q11" pin="B"/>
+    </net>
+    <net code="187" name="Net-(Q8-PadE)">
+      <node ref="R15" pin="1"/>
+      <node ref="Q9" pin="E"/>
+      <node ref="Q8" pin="E"/>
+    </net>
+    <net code="188" name="Net-(Q12-PadE)">
+      <node ref="Q12" pin="E"/>
+      <node ref="Q13" pin="E"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="189" name="Net-(Q12-PadB)">
+      <node ref="R21" pin="2"/>
+      <node ref="Q13" pin="B"/>
+      <node ref="Q12" pin="B"/>
+    </net>
+    <net code="190" name="Net-(QP5-Pad1)">
+      <node ref="R18" pin="2"/>
+      <node ref="QP5" pin="1"/>
+    </net>
+    <net code="191" name="Net-(Q10-PadE)">
+      <node ref="R18" pin="1"/>
+      <node ref="Q11" pin="E"/>
+      <node ref="Q10" pin="E"/>
+    </net>
+    <net code="192" name="Net-(Q6-PadE)">
+      <node ref="R14" pin="1"/>
+      <node ref="Q6" pin="E"/>
+      <node ref="Q7" pin="E"/>
+    </net>
+    <net code="194" name="/Inyectores/Encendido/INYL6A">
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="195" name="/Inyectores/Encendido/INYL5A">
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="196" name="Net-(Q18-PadB)">
+      <node ref="Q18" pin="B"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="197" name="/Relay/RL6">
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="198" name="Net-(D13-PadA)">
+      <node ref="D13" pin="A"/>
+    </net>
+    <net code="199" name="Net-(IC5-Pad3)">
+      <node ref="IC5" pin="3"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="200" name="Net-(Q14-PadB)">
+      <node ref="Q14" pin="B"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="201" name="Net-(Q16-PadB)">
+      <node ref="R24" pin="2"/>
+      <node ref="Q16" pin="B"/>
+    </net>
+    <net code="202" name="Net-(Q15-PadB)">
+      <node ref="R23" pin="2"/>
+      <node ref="Q15" pin="B"/>
+    </net>
+    <net code="203" name="Net-(Q17-PadB)">
+      <node ref="Q17" pin="B"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="204" name="Net-(Q19-PadB)">
+      <node ref="R27" pin="2"/>
+      <node ref="Q19" pin="B"/>
+    </net>
+    <net code="205" name="/Sensores/AIN7">
+      <node ref="R41" pin="2"/>
+      <node ref="R40" pin="2"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="206" name="Net-(IC6-Pad2)">
+      <node ref="R48" pin="1"/>
+      <node ref="IC6" pin="2"/>
+      <node ref="R50" pin="1"/>
+    </net>
+    <net code="207" name="Net-(C19-Pad1)">
+      <node ref="R47" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="IC5" pin="5"/>
+    </net>
+    <net code="208" name="Net-(IC5-Pad6)">
+      <node ref="R51" pin="1"/>
+      <node ref="R49" pin="1"/>
+      <node ref="IC5" pin="6"/>
+    </net>
+    <net code="209" name="Net-(C18-Pad1)">
+      <node ref="R46" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="IC6" pin="3"/>
+    </net>
+    <net code="210" name="/Sensores/AIN5">
+      <node ref="R44" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="R45" pin="2"/>
+    </net>
+    <net code="211" name="/Sensores/AIN6">
+      <node ref="C4" pin="1"/>
+      <node ref="R34" pin="2"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="212" name="/Sensores/AIN2">
+      <node ref="R42" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R43" pin="2"/>
+    </net>
+    <net code="213" name="/Sensores/AIN3">
+      <node ref="R32" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R33" pin="2"/>
+    </net>
+  </nets>
+</export>
