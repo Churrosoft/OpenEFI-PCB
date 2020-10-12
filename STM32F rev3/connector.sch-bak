@@ -79,37 +79,37 @@ Text GLabel 9750 2800 0    50   Input ~ 0
 CONN_21
 Text GLabel 9750 2900 0    50   Input ~ 0
 CONN_22
-Text GLabel 9750 3000 0    50   Input ~ 0
+Text GLabel 9100 3000 0    50   Input ~ 0
 CONN_23
-Text GLabel 9750 3100 0    50   Input ~ 0
+Text GLabel 9100 3100 0    50   Input ~ 0
 CONN_24
-Text GLabel 9750 3200 0    50   Input ~ 0
+Text GLabel 9100 3200 0    50   Input ~ 0
 CONN_25
-Text GLabel 9750 3300 0    50   Input ~ 0
+Text GLabel 9100 3300 0    50   Input ~ 0
 CONN_26
-Text GLabel 9750 3400 0    50   Input ~ 0
+Text GLabel 9100 3400 0    50   Input ~ 0
 CONN_27
-Text GLabel 9750 3500 0    50   Input ~ 0
+Text GLabel 9100 3500 0    50   Input ~ 0
 CONN_28
-Text GLabel 9750 3600 0    50   Input ~ 0
+Text GLabel 9100 3600 0    50   Input ~ 0
 CONN_29
-Text GLabel 9750 3700 0    50   Input ~ 0
+Text GLabel 9100 3700 0    50   Input ~ 0
 CONN_30
-Text GLabel 9750 3800 0    50   Input ~ 0
+Text GLabel 9100 3800 0    50   Input ~ 0
 CONN_31
-Text GLabel 9750 3900 0    50   Input ~ 0
+Text GLabel 9100 3900 0    50   Input ~ 0
 CONN_32
-Text GLabel 9750 4000 0    50   Input ~ 0
+Text GLabel 9100 4000 0    50   Input ~ 0
 CONN_33
-Text GLabel 9750 4100 0    50   Input ~ 0
+Text GLabel 9100 4100 0    50   Input ~ 0
 CONN_34
-Text GLabel 9750 4200 0    50   Input ~ 0
+Text GLabel 9100 4200 0    50   Input ~ 0
 CONN_35
-Text GLabel 9750 4300 0    50   Input ~ 0
+Text GLabel 9100 4300 0    50   Input ~ 0
 CONN_36
-Text GLabel 9750 4400 0    50   Input ~ 0
+Text GLabel 9100 4400 0    50   Input ~ 0
 CONN_37
-Text GLabel 9750 4500 0    50   Input ~ 0
+Text GLabel 9100 4500 0    50   Input ~ 0
 CONN_38
 Text GLabel 9750 4600 0    50   Input ~ 0
 CONN_39
@@ -151,11 +151,11 @@ Text GLabel 7900 2400 0    50   Input ~ 0
 CONN_57
 Text GLabel 7900 2500 0    50   Input ~ 0
 CONN_58
-Text GLabel 7900 2600 0    50   Input ~ 0
+Text GLabel 7200 2600 0    50   Input ~ 0
 CONN_59
 Text GLabel 7200 2700 0    50   Input ~ 0
 CONN_60
-Text GLabel 7200 2800 0    50   Input ~ 0
+Text GLabel 7900 2800 0    50   Input ~ 0
 CONN_61
 Text GLabel 7900 2900 0    50   Input ~ 0
 CONN_62
@@ -195,8 +195,6 @@ Wire Wire Line
 	9750 4700 9900 4700
 Wire Wire Line
 	9900 4600 9750 4600
-Wire Wire Line
-	9750 4500 9900 4500
 Wire Wire Line
 	9750 4400 9900 4400
 Wire Wire Line
@@ -307,8 +305,6 @@ Wire Wire Line
 	7900 2400 8050 2400
 Wire Wire Line
 	7900 2500 8050 2500
-Wire Wire Line
-	7900 2600 8050 2600
 Wire Wire Line
 	7900 2900 8050 2900
 Wire Wire Line
@@ -611,7 +607,7 @@ U 1 1 5F79A1C0
 P 2200 5300
 F 0 "D3" H 2200 5517 50  0000 C CNN
 F 1 "1N4148" H 2200 5426 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2200 5125 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2200 5125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2200 5300 50  0001 C CNN
 	1    2200 5300
 	0    1    1    0   
@@ -622,7 +618,7 @@ U 1 1 5F79ABE9
 P 1850 4450
 F 0 "D2" H 1850 4667 50  0000 C CNN
 F 1 "1N4148" H 1850 4576 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1850 4275 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 1850 4275 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1850 4450 50  0001 C CNN
 	1    1850 4450
 	0    -1   -1   0   
@@ -750,30 +746,23 @@ Wire Wire Line
 $Comp
 L power:+12VA #PWR025
 U 1 1 5F843EC0
-P 7300 2650
-F 0 "#PWR025" H 7300 2500 50  0001 C CNN
-F 1 "+12VA" H 7315 2823 50  0000 C CNN
-F 2 "" H 7300 2650 50  0001 C CNN
-F 3 "" H 7300 2650 50  0001 C CNN
-	1    7300 2650
+P 7300 2500
+F 0 "#PWR025" H 7300 2350 50  0001 C CNN
+F 1 "+12VA" H 7315 2673 50  0000 C CNN
+F 2 "" H 7300 2500 50  0001 C CNN
+F 3 "" H 7300 2500 50  0001 C CNN
+	1    7300 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 2650 7300 2700
-Wire Wire Line
 	7300 2700 8050 2700
-Wire Wire Line
-	7300 2800 7300 2700
-Connection ~ 7300 2700
-Wire Wire Line
-	7300 2800 8050 2800
 $Comp
 L Transistor_BJT:2N3904 Q5
 U 1 1 5F87C83E
 P 2200 4400
 F 0 "Q5" V 2100 4250 50  0000 C CNN
 F 1 "2N3904" V 2437 4400 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 4325 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:TSOT-23" H 2400 4325 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 2200 4400 50  0001 L CNN
 	1    2200 4400
 	0    1    -1   0   
@@ -829,10 +818,6 @@ Wire Wire Line
 Connection ~ 1850 3700
 Wire Wire Line
 	2200 5450 2200 5600
-Wire Wire Line
-	3550 4900 2550 4900
-Wire Wire Line
-	2550 4900 2550 4300
 Connection ~ 2550 4300
 Wire Wire Line
 	3250 4800 3550 4800
@@ -861,14 +846,14 @@ Wire Wire Line
 Wire Wire Line
 	3250 4050 3250 4000
 Wire Wire Line
-	2750 3700 2900 3700
+	2750 3700 2800 3700
 $Comp
 L Device:D_TVS D4
 U 1 1 5F9FF98F
 P 2900 3950
 F 0 "D4" V 2854 4030 50  0000 L CNN
 F 1 "SMAJ58CA" V 2945 4030 50  0000 L CNN
-F 2 "" H 2900 3950 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA" H 2900 3950 50  0001 C CNN
 F 3 "~" H 2900 3950 50  0001 C CNN
 	1    2900 3950
 	0    1    1    0   
@@ -1052,4 +1037,82 @@ Wire Wire Line
 Wire Wire Line
 	3100 2600 2900 2600
 Connection ~ 2900 2600
+Wire Wire Line
+	7900 2800 8050 2800
+Wire Wire Line
+	7300 2600 7300 2500
+Wire Wire Line
+	7300 2600 8050 2600
+Wire Wire Line
+	7300 2600 7300 2700
+Connection ~ 7300 2600
+Wire Wire Line
+	2800 3700 2800 4900
+Wire Wire Line
+	2800 4900 3550 4900
+Connection ~ 2800 3700
+Wire Wire Line
+	2800 3700 2900 3700
+$Comp
+L power:GND #PWR0175
+U 1 1 6270A3C8
+P 9300 4950
+F 0 "#PWR0175" H 9300 4700 50  0001 C CNN
+F 1 "GND" H 9305 4777 50  0000 C CNN
+F 2 "" H 9300 4950 50  0001 C CNN
+F 3 "" H 9300 4950 50  0001 C CNN
+	1    9300 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 4950 9300 4500
+Wire Wire Line
+	9300 4500 9750 4500
+Wire Wire Line
+	9750 4400 9750 4500
+Connection ~ 9750 4500
+Wire Wire Line
+	9750 4500 9900 4500
+Wire Wire Line
+	9750 3000 9750 3100
+Connection ~ 9750 4400
+Connection ~ 9750 3100
+Wire Wire Line
+	9750 3100 9750 3200
+Connection ~ 9750 3200
+Wire Wire Line
+	9750 3200 9750 3300
+Connection ~ 9750 3300
+Wire Wire Line
+	9750 3300 9750 3400
+Connection ~ 9750 3400
+Wire Wire Line
+	9750 3400 9750 3500
+Connection ~ 9750 3500
+Wire Wire Line
+	9750 3500 9750 3600
+Connection ~ 9750 3600
+Wire Wire Line
+	9750 3600 9750 3700
+Connection ~ 9750 3700
+Wire Wire Line
+	9750 3700 9750 3800
+Connection ~ 9750 3800
+Wire Wire Line
+	9750 3800 9750 3900
+Connection ~ 9750 3900
+Wire Wire Line
+	9750 3900 9750 4000
+Connection ~ 9750 4000
+Wire Wire Line
+	9750 4000 9750 4100
+Connection ~ 9750 4100
+Wire Wire Line
+	9750 4100 9750 4200
+Connection ~ 9750 4200
+Wire Wire Line
+	9750 4200 9750 4300
+Connection ~ 9750 4300
+Wire Wire Line
+	9750 4300 9750 4400
 $EndSCHEMATC

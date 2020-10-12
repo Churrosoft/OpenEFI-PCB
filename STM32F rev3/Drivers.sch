@@ -309,8 +309,6 @@ Wire Wire Line
 	2400 5300 2500 5300
 Connection ~ 2600 5300
 Wire Wire Line
-	3050 5300 3250 5300
-Wire Wire Line
 	3350 5300 3350 5550
 Connection ~ 3050 5300
 Wire Wire Line
@@ -440,94 +438,6 @@ Wire Wire Line
 	5100 5800 6150 5800
 Wire Wire Line
 	6150 5800 6150 6200
-$Comp
-L Connector:TestPoint TP4
-U 1 1 5F952D79
-P 3050 3250
-F 0 "TP4" H 3108 3368 50  0000 L CNN
-F 1 "TestPoint" H 3108 3277 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3250 3250 50  0001 C CNN
-F 3 "~" H 3250 3250 50  0001 C CNN
-	1    3050 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5F955EDE
-P 3050 2250
-F 0 "TP3" H 3108 2368 50  0000 L CNN
-F 1 "TestPoint" H 3108 2277 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3250 2250 50  0001 C CNN
-F 3 "~" H 3250 2250 50  0001 C CNN
-	1    3050 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP5
-U 1 1 5F95937A
-P 3050 4250
-F 0 "TP5" H 3108 4368 50  0000 L CNN
-F 1 "TestPoint" H 3108 4277 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3250 4250 50  0001 C CNN
-F 3 "~" H 3250 4250 50  0001 C CNN
-	1    3050 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP6
-U 1 1 5F95C084
-P 3050 5200
-F 0 "TP6" H 3108 5318 50  0000 L CNN
-F 1 "TestPoint" H 3108 5227 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3250 5200 50  0001 C CNN
-F 3 "~" H 3250 5200 50  0001 C CNN
-	1    3050 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP10
-U 1 1 5F967BE9
-P 6150 5750
-F 0 "TP10" H 6208 5822 50  0000 L CNN
-F 1 "TestPoint" H 6208 5777 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 6350 5750 50  0001 C CNN
-F 3 "~" H 6350 5750 50  0001 C CNN
-	1    6150 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP9
-U 1 1 5F96A232
-P 5900 5850
-F 0 "TP9" H 5958 5922 50  0000 L CNN
-F 1 "TestPoint" H 5958 5877 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 6100 5850 50  0001 C CNN
-F 3 "~" H 6100 5850 50  0001 C CNN
-	1    5900 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP8
-U 1 1 5F96C779
-P 5650 5950
-F 0 "TP8" H 5708 6022 50  0000 L CNN
-F 1 "TestPoint" H 5708 5977 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 5850 5950 50  0001 C CNN
-F 3 "~" H 5850 5950 50  0001 C CNN
-	1    5650 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP7
-U 1 1 5F96EE58
-P 5400 6050
-F 0 "TP7" H 5458 6122 50  0000 L CNN
-F 1 "TestPoint" H 5458 6077 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 5600 6050 50  0001 C CNN
-F 3 "~" H 5600 6050 50  0001 C CNN
-	1    5400 6050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6150 5750 6150 5800
 Connection ~ 6150 5800
@@ -893,16 +803,5 @@ F 4 "C159890" V 1550 6700 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3050 5200 3250 5200
-Wire Wire Line
-	3250 5200 3250 5300
-Connection ~ 3250 5300
-Wire Wire Line
-	3250 5300 3350 5300
-Wire Wire Line
-	3050 4250 3050 4350
-Wire Wire Line
-	3050 3250 3050 3350
-Wire Wire Line
-	3050 2250 3050 2350
+	3050 5300 3350 5300
 $EndSCHEMATC
