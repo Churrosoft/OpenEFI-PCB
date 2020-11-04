@@ -1383,6 +1383,28 @@ F 3 "" H 7200 1700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7200 1750 7500 1750
+$Comp
+L Graphic:Logo_Open_Hardware_Large LOGO1
+U 1 1 5FAF676D
+P 9700 5300
+F 0 "LOGO1" H 9700 5800 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 9700 4900 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_14.6x12mm_SilkScreen" H 9700 5300 50  0001 C CNN
+F 3 "~" H 9700 5300 50  0001 C CNN
+	1    9700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Hot_Small SYM1
+U 1 1 5FAFA26F
+P 10650 6050
+F 0 "SYM1" H 10650 6190 50  0001 C CNN
+F 1 "SYM_Hot_Small" H 10650 5925 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo2_6mm_SilkScreen" H 10650 5875 50  0001 C CNN
+F 3 "~" H 10680 5850 50  0001 C CNN
+	1    10650 6050
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	6950 4450 10650 4450
 Wire Bus Line

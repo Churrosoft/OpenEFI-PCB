@@ -402,13 +402,13 @@ Wire Wire Line
 Wire Wire Line
 	4050 3200 4050 4250
 Connection ~ 4050 4250
-Text GLabel 3550 2350 2    50   Input ~ 0
+Text GLabel 6500 5800 2    50   Input ~ 0
 CONN_1
-Text GLabel 3550 3350 2    50   Input ~ 0
+Text GLabel 6500 5900 2    50   Input ~ 0
 CONN_2
-Text GLabel 3550 4350 2    50   Input ~ 0
+Text GLabel 6500 6000 2    50   Input ~ 0
 CONN_21
-Text GLabel 3550 5300 2    50   Input ~ 0
+Text GLabel 6500 6100 2    50   Input ~ 0
 CONN_22
 $Comp
 L Device:C_Small C25
@@ -538,13 +538,13 @@ Wire Wire Line
 	3750 5550 3850 5550
 Wire Wire Line
 	3850 5550 3850 5650
-Text GLabel 6500 6100 2    50   Input ~ 0
+Text GLabel 3550 5300 2    50   Input ~ 0
 CONN_41
-Text GLabel 6500 5900 2    50   Input ~ 0
+Text GLabel 3550 3350 2    50   Input ~ 0
 CONN_42
-Text GLabel 6500 6000 2    50   Input ~ 0
+Text GLabel 3550 4350 2    50   Input ~ 0
 CONN_61
-Text GLabel 6500 5800 2    50   Input ~ 0
+Text GLabel 3550 2350 2    50   Input ~ 0
 CONN_62
 $Comp
 L power:GND #PWR05
