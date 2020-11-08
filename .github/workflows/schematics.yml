@@ -16,18 +16,18 @@ jobs:
         uses: nerdyscout/kicad-exports@master
         with:
           config: docs.kiplot.yaml
-          board: "STM32F rev3/STM32F rev3.kicad_pcb"
-          schema: "STM32F rev3/STM32F rev3.sch"
+          board: "STM32F_rev3/STM32F_rev3.kicad_pcb"
+          schema: "STM32F_rev3/STM32F_rev3.sch"
       - name: kicad-exports plots
         uses: nerdyscout/kicad-exports@master
         with:
           config: plot.kiplot.yaml
-          board: "STM32F rev3/STM32F rev3.kicad_pcb"
-          schema: "STM32F rev3/STM32F rev3.sch"
+          board: "STM32F_rev3/STM32F_rev3.kicad_pcb"
+          schema: "STM32F_rev3/STM32F_rev3.sch"
       - name: kicad-schematic
         uses: andstor/file-existence-action@v1
         with:
-          files: "'STM32F rev3/docs/test_schematic.svg', 'STM32F rev3/docs/test_schematic.pdf'"
+          files: "STM32F_rev3/docs/test_schematic.svg, STM32F_rev3/docs/test_schematic.pdf"
       - uses: actions/upload-artifact@v2
         if: success()
         with:

@@ -25,7 +25,7 @@ jobs:
         run: git submodule init && git submodule update
 
       - name: create HTML BOM
-        run: xvfb-run --auto-servernum --server-args "-screen 0 1024x768x24"  python3 InteractiveHtmlBom/InteractiveHtmlBom/generate_interactive_bom.py 'STM32F rev3/STM32F rev3.kicad_pcb' --no-browser --dest-dir ../out
+        run: xvfb-run --auto-servernum --server-args "-screen 0 1024x768x24"  python3 InteractiveHtmlBom/InteractiveHtmlBom/generate_interactive_bom.py STM32F_rev3/STM32F_rev3.kicad_pcb --no-browser --dest-dir ../out
         env:
           DISPLAY: 0.0
 

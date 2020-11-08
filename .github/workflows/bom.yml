@@ -16,12 +16,12 @@ jobs:
         with:
           fetch-depth: 0
       - name: Tag board
-        run: sed -i "s/GIT_REV/\"OpenEFI rev $(git describe --tags --abbrev=4 --dirty=-*)\"/g" 'STM32F rev3/STM32F rev3.kicad_pcb'
+        run: sed -i "s/GIT_REV/\"OpenEFI rev $(git describe --tags --abbrev=4 --dirty=-*)\"/g" 'STM32F_rev3/STM32F_rev3.kicad_pcb'
       - uses: nerdyscout/kicad-exports@v2.0
         with:
           config: bom.kiplot.yaml
-          board: "STM32F rev3/STM32F rev3.kicad_pcb"
-          schema: "STM32F rev3/STM32F rev3.sch"
+          board: "STM32F_rev3/STM32F_rev3.kicad_pcb"
+          schema: "STM32F_rev3/STM32F_rev3.sch"
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
