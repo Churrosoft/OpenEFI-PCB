@@ -16,14 +16,14 @@ jobs:
         uses: nerdyscout/kicad-exports@master
         with:
           config: /opt/kibot/config/docs.kibot.yaml
-          board: "STM32F_rev3/STM32F_rev3.kicad_pcb"
-          schema: "STM32F_rev3/STM32F_rev3.sch"
+          board: STM32F_rev3/STM32F_rev3.kicad_pcb
+          schema: STM32F_rev3/STM32F_rev3.sch
       - name: kicad-exports plots
         uses: nerdyscout/kicad-exports@master
         with:
           config: plot.kiplot.yaml
-          board: "STM32F_rev3/STM32F_rev3.kicad_pcb"
-          schema: "STM32F_rev3/STM32F_rev3.sch"
+          board: STM32F_rev3/STM32F_rev3.kicad_pcb
+          schema: STM32F_rev3/STM32F_rev3.sch
       - name: kicad-schematic
         uses: andstor/file-existence-action@v1
         with:

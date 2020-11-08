@@ -20,8 +20,8 @@ jobs:
       - uses: nerdyscout/kicad-exports@v2.0
         with:
           config: bom.kiplot.yaml
-          board: "STM32F_rev3/STM32F_rev3.kicad_pcb"
-          schema: "STM32F_rev3/STM32F_rev3.sch"
+          board: STM32F_rev3/STM32F_rev3.kicad_pcb
+          schema: STM32F_rev3/STM32F_rev3.sch
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
