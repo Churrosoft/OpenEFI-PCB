@@ -15,7 +15,7 @@ jobs:
       - name: kicad-exports schematic docs
         uses: nerdyscout/kicad-exports@master
         with:
-          config: docs.kiplot.yaml
+          config: /opt/kibot/config/docs.kibot.yaml
           board: "STM32F_rev3/STM32F_rev3.kicad_pcb"
           schema: "STM32F_rev3/STM32F_rev3.sch"
       - name: kicad-exports plots
