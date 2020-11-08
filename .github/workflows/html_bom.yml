@@ -1,0 +1,36 @@
+name: HTMLBOM
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: install KiCAD v5
+        run: |
+          sudo apt clean
+          sudo add-apt-repository --yes ppa:inkscape.dev/stable
+          sudo add-apt-repository --yes ppa:js-reynaud/kicad-5.1
+          sudo apt update
+          sudo apt install --install-recommends kicad
+          sudo apt install xvfb
+          sudo apt-get install inkscape
+      - name: submodules init
+        run: git submodule init && git submodule update
+
+      - name: create HTML BOM
+        run: xvfb-run --auto-servernum --server-args "-screen 0 1024x768x24"  python3 InteractiveHtmlBom/InteractiveHtmlBom/generate_interactive_bom.py 'STM32F rev3/STM32F rev3.kicad_pcb' --no-browser --dest-dir ../out
+        env:
+          DISPLAY: 0.0
+
+      - name: Upload all Files
+        uses: actions/upload-artifact@v2
+        with:
+          name: artifacts
+          path: ./out/
