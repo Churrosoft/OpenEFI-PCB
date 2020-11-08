@@ -7330,7 +7330,7 @@
     )
   )
 
-  (module "OpenEFI-STM32F rev3:502225-0801" locked (layer F.Cu) (tedit 0) (tstamp 5F6FAAF5)
+  (module "OpenEFI-STM32F_rev3:502225-0801" locked (layer F.Cu) (tedit 0) (tstamp 5F6FAAF5)
     (at 159.639 66.4845 180)
     (path /5F782F71/5F7837B6)
     (fp_text reference J3 (at -12.192 9.652) (layer F.SilkS)
@@ -7533,7 +7533,7 @@
       (net 103 CONN_2))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.8034 1.8034) (drill 1.2954) (layers *.Cu *.Mask)
       (net 101 CONN_1))
-    (model "../library/OpenEFI-STM32F rev3.pretty/models/5022250801.stp"
+    (model "../library/OpenEFI-STM32F_rev3.pretty/models/5022250801.stp"
       (offset (xyz 10.5 -23.5 22.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 180))
@@ -11243,7 +11243,7 @@
     )
   )
 
-  (module "OpenEFI-STM32F rev3:SOP65P1030X245-33N" (layer F.Cu) (tedit 5F4C80D5) (tstamp 5F4DDE39)
+  (module "OpenEFI-STM32F_rev3:SOP65P1030X245-33N" (layer F.Cu) (tedit 5F4C80D5) (tstamp 5F4DDE39)
     (at 197.2691 108.1278)
     (path /5F4D8452)
     (fp_text reference U1 (at -1.9558 4.318) (layer F.SilkS) hide
@@ -11458,7 +11458,7 @@
       (net 100 /Sheet5FA9324A/FB0))
     (pad 1 smd rect (at -4.699 -4.8768) (size 1.6002 0.4318) (layers F.Cu F.Paste F.Mask)
       (net 101 CONN_1))
-    (model "../library/OpenEFI-STM32F rev3.pretty/models/MCZ33810EK.STEP"
+    (model "../library/OpenEFI-STM32F_rev3.pretty/models/MCZ33810EK.STEP"
       (offset (xyz 0 0 1.2))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
