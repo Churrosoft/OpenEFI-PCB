@@ -402,9 +402,9 @@ Wire Wire Line
 Wire Wire Line
 	4050 3200 4050 4250
 Connection ~ 4050 4250
-Text GLabel 6500 5800 2    50   Input ~ 0
-CONN_1
 Text GLabel 6500 5900 2    50   Input ~ 0
+CONN_1
+Text GLabel 6500 5800 2    50   Input ~ 0
 CONN_2
 Text GLabel 6500 6000 2    50   Input ~ 0
 CONN_21

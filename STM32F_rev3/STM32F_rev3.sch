@@ -773,7 +773,7 @@ F 4 "C28323" H 2550 1050 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B J1
+L STM32F_rev3-rescue:USB_B-Connector J1
 U 1 1 5F7CD2F4
 P 850 7075
 F 0 "J1" H 907 7542 50  0000 C CNN
