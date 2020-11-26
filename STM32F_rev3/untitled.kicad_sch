@@ -1,6 +1,6 @@
 (kicad_sch (version 20201015) (generator eeschema)
 
-  (page 1 5)
+  (page 1 6)
 
   (paper "A4")
 
@@ -363,9 +363,9 @@
   (junction (at 180.34 82.55) (diameter 1.016) (color 0 0 0 0))
   (junction (at 191.77 85.09) (diameter 1.016) (color 0 0 0 0))
 
+  (no_connect (at 135.89 87.63))
   (no_connect (at 171.45 87.63))
   (no_connect (at 135.89 90.17))
-  (no_connect (at 135.89 87.63))
 
   (wire (pts (xy 74.168 104.394) (xy 79.375 104.394))
     (stroke (width 0) (type solid) (color 0 0 0 0))
