@@ -45,7 +45,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -427,7 +427,7 @@
   },
   "sheets": [
     [
-      "c38f24db-26a3-4c8d-9542-dd1f11354533",
+      "28e27534-ab58-447c-a510-ec0552e496f7",
       ""
     ],
     [
@@ -439,12 +439,12 @@
       "CKP/CMP_sensors"
     ],
     [
-      "00000000-0000-0000-0000-00005f54b134",
-      "Sensores"
-    ],
-    [
       "b1829a8d-2693-4ef4-b38b-2a2550c6ec35",
       "PWM/Relays"
+    ],
+    [
+      "00000000-0000-0000-0000-00005f54b134",
+      "Sensores"
     ],
     [
       "00000000-0000-0000-0000-00005fa9324b",
