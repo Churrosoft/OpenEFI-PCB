@@ -1,7 +1,5 @@
 (kicad_sch (version 20201015) (generator eeschema)
 
-  (page 1 6)
-
   (paper "A4")
 
   (lib_symbols
@@ -591,16 +589,28 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
 
-  (global_label "CONN71-" (shape input) (at 74.168 104.394 180)
+  (global_label "CONN71-" (shape input) (at 74.168 104.394 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "CONN71+" (shape input) (at 74.422 125.222 180)
+  (global_label "CONN71+" (shape input) (at 74.422 125.222 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "CONN_68" (shape input) (at 80.01 78.74 180)
+  (global_label "CONN_68" (shape input) (at 80.01 78.74 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "CONN_69" (shape input) (at 80.772 58.42 180)
+  (global_label "CONN_69" (shape input) (at 80.772 58.42 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
 

@@ -67,6 +67,19 @@
     "version": 2
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "Sensors_V1.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 240,
+          "pos_y": 65,
+          "size_x": 1440,
+          "size_y": 414
+        }
+      }
+    ]
   }
 }

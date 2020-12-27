@@ -1,7 +1,5 @@
 (kicad_sch (version 20201015) (generator eeschema)
 
-  (page 1 6)
-
   (paper "A3")
 
   (lib_symbols
@@ -1305,49 +1303,94 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
 
-  (global_label "CONN_3" (shape input) (at 35.56 39.37 180)
+  (global_label "CONN_3" (shape input) (at 35.56 39.37 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "CONN_4" (shape input) (at 35.56 68.58 180)
+  (global_label "CONN_4" (shape input) (at 35.56 68.58 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "CONN_5" (shape input) (at 35.56 98.425 180)
+  (global_label "CONN_5" (shape input) (at 35.56 98.425 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "CONN_6" (shape input) (at 35.56 127 180)
+  (global_label "CONN_6" (shape input) (at 35.56 127 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "CONN_7" (shape input) (at 35.56 154.94 180)
+  (global_label "CONN_7" (shape input) (at 35.56 154.94 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "CONN_8" (shape input) (at 35.56 184.15 180)
+  (global_label "CONN_8" (shape input) (at 35.56 184.15 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "CONN_9" (shape input) (at 35.56 213.995 180)
+  (global_label "CONN_9" (shape input) (at 35.56 213.995 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "CONN_10" (shape input) (at 35.56 242.57 180)
+  (global_label "CONN_10" (shape input) (at 35.56 242.57 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "CONN_14" (shape input) (at 119.38 107.95 180)
+  (global_label "CONN_14" (shape input) (at 119.38 107.95 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "CONN_15" (shape input) (at 119.38 128.27 180)
+  (global_label "CONN_15" (shape input) (at 119.38 128.27 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "CONN_13" (shape input) (at 120.015 86.36 180)
+  (global_label "CONN_13" (shape input) (at 120.015 86.36 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "CONN_11" (shape input) (at 120.65 43.18 180)
+  (global_label "CONN_11" (shape input) (at 120.65 43.18 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "CONN_12" (shape input) (at 120.65 64.77 180)
+  (global_label "CONN_12" (shape input) (at 120.65 64.77 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "CONN_16" (shape input) (at 196.215 144.145 90)
+  (global_label "CONN_16" (shape input) (at 196.215 144.145 90)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify left))
   )
-  (global_label "CONN_17" (shape input) (at 197.485 84.455 90)
+  (global_label "CONN_17" (shape input) (at 197.485 84.455 90)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify left))
   )
 
