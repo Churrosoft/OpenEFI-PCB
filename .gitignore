@@ -50,3 +50,7 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
+µEFI_rev2/µEFI_rev2-backups/*
+*.sch-bak
+*.kicad_pcb-bak
+fp-info-cache

@@ -1,16 +1,13 @@
 {
   "board": {
-    "active_layer": 31,
-    "active_layer_preset": "",
-    "auto_track_width": false,
+    "active_layer": 1,
+    "active_layer_preset": "Default_OpenEFI",
+    "auto_track_width": true,
     "hidden_nets": [
-      "GND",
       "+5V",
-      "+3V3",
-      "+12VA",
-      "+12V"
+      "+12VA"
     ],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "pads": 1.0,
@@ -44,7 +41,6 @@
       9,
       10,
       11,
-      12,
       13,
       14,
       15,
@@ -69,7 +65,7 @@
       35,
       36
     ],
-    "visible_layers": "000f0fa_80000007",
+    "visible_layers": "ffcffff_ffffffff",
     "zone_display_mode": 1
   },
   "meta": {
