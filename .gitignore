@@ -54,3 +54,4 @@ eagle.epf
 *.sch-bak
 *.kicad_pcb-bak
 fp-info-cache
+µEFI_rev2/v1-backups/*

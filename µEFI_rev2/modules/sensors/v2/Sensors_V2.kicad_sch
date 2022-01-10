@@ -1,4 +1,6 @@
-(kicad_sch (version 20210126) (generator eeschema)
+(kicad_sch (version 20210621) (generator eeschema)
+
+  (uuid 07dbc177-db3e-4fa8-af48-2e3f484ae547)
 
   (paper "A4")
 
@@ -951,7 +953,7 @@
     (property "Reference" "R4" (id 0) (at 136.1186 90.2716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "16k 1/10W +-1%" (id 1) (at 130.81 104.14 90)
+    (property "Value" "16k 1/10W +-1%" (id 1) (at 128.27 104.14 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 134.62 91.44 0)
@@ -995,7 +997,7 @@
     (property "Reference" "R6" (id 0) (at 136.1186 109.3216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "33k  1/10W +-1%" (id 1) (at 128.27 115.57 0)
+    (property "Value" "33k  1/10W +-1%" (id 1) (at 123.19 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 134.62 110.49 0)
