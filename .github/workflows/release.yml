@@ -30,7 +30,7 @@ name: "KiBot - Release"
 
 on:
   release:
-    types: [published]
+    types: [published,prereleased,created]
   workflow_dispatch:
     inputs:
       version:
@@ -152,7 +152,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
         with:
           files: |
             uEFI_rev3/uEFI_rev3-Documentation.zip
