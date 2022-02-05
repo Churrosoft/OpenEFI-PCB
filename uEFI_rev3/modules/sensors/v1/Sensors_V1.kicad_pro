@@ -57,7 +57,7 @@
       ],
       "drc_exclusions": [],
       "meta": {
-        "version": 2
+        "version": 1
       },
       "rule_severities": {
         "annular_width": "error",
@@ -66,7 +66,7 @@
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
+        "drill_too_small": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "hole_clearance": "error",
@@ -76,7 +76,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "malformed_courtyard": "error",
-        "microvia_drill_out_of_range": "error",
+        "microvia_drill_too_small": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
@@ -110,27 +110,21 @@
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.19999999999999998,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.39999999999999997
+        "min_via_annular_width": 0.049999999999999996,
+        "min_via_diameter": 0.39999999999999997,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
+        "solder_paste_clearance": 0.0,
+        "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
         0.0,
-        0.3,
-        0.35,
         0.4
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.8,
-          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false,
@@ -143,7 +137,6 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -154,7 +147,6 @@
         0,
         0,
         0,
-        0,
         1,
         0,
         0,
@@ -168,7 +160,6 @@
         0,
         1,
         0,
-        0,
         1,
         0,
         2,
@@ -182,7 +173,6 @@
         0,
         0,
         0,
-        0,
         1,
         0,
         1,
@@ -193,7 +183,6 @@
       [
         0,
         1,
-        0,
         0,
         0,
         0,
@@ -210,7 +199,6 @@
         0,
         0,
         0,
-        0,
         1,
         0,
         0,
@@ -219,26 +207,11 @@
         2
       ],
       [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
         1,
         1,
         1,
         1,
         1,
-        0,
         1,
         1,
         1,
@@ -251,7 +224,6 @@
         0,
         0,
         1,
-        0,
         0,
         1,
         0,
@@ -266,7 +238,6 @@
         1,
         2,
         0,
-        0,
         1,
         0,
         2,
@@ -280,7 +251,6 @@
         0,
         1,
         0,
-        0,
         1,
         0,
         2,
@@ -294,7 +264,6 @@
         1,
         1,
         0,
-        0,
         1,
         0,
         2,
@@ -303,7 +272,6 @@
         2
       ],
       [
-        2,
         2,
         2,
         2,
@@ -324,9 +292,7 @@
       "bus_to_net_conflict": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
-      "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
@@ -340,8 +306,6 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "unannotated": "error",
-      "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
     }
@@ -351,7 +315,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Sensors_V2.kicad_pro",
+    "filename": "Sensors_V1.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -375,7 +339,7 @@
       }
     ],
     "meta": {
-      "version": 0
+      "version": 2
     },
     "net_colors": null
   },
@@ -385,7 +349,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "Sensors_V2.step",
+      "step": "Sensors_V1.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -398,7 +362,6 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
-      "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
@@ -413,12 +376,6 @@
       "version": 0
     },
     "net_format_name": "",
-    "ngspice": {
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
@@ -428,7 +385,7 @@
   },
   "sheets": [
     [
-      "74961765-ce22-4e3c-9c33-9d69cada47ec",
+      "44a7ed00-8d31-485c-837d-0282a9224649",
       ""
     ]
   ],

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "STM32F rev3")(type "KiCad")(uri "/home/fdsoftware/electronica/OpenEFI-PCB/library/uEFI_rev3.pretty")(options "")(descr "")(disabled))
+  (lib (name "OpenEFI-STM32F_rev3")(type "KiCad")(uri "/home/fdsoftware/electronica/OpenEFI-PCB/library/OpenEFI-STM32F_rev3.pretty")(options "")(descr ""))
+)

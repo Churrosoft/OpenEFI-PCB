@@ -55,3 +55,8 @@ eagle.epf
 *.kicad_pcb-bak
 fp-info-cache
 µEFI_rev2/v1-backups/*
+*.zip
+*.csv
+*/output/*
+uEFI_rev3/modules/sensors/v2/output/**
+uEFI_rev3/modules/sensors/v1/output/**

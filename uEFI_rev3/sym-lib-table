@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "OpenEFI-STM32-rev3")(type "KiCad")(uri "/home/fdsoftware/electronica/OpenEFI-PCB/library/OpenEFI-STM32F_rev3.pretty/OpenEFI-STM32-rev3.kicad_sym")(options "")(descr ""))
+  (lib (name "2020-09-26_19-57-26")(type "KiCad")(uri "/home/fdsoftware/electronica/OpenEFI-PCB/library/OpenEFI-STM32F_rev3.pretty/2020-09-26_19-57-26.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32F_rev3-rescue")(type "Legacy")(uri "${KIPRJMOD}/uEFI_rev3-rescue.lib")(options "")(descr "")(disabled))
+)

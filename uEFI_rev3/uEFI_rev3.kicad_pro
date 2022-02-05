@@ -8,7 +8,7 @@
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
         "copper_text_thickness": 0.3,
-        "copper_text_upright": false,
+        "copper_text_upright": true,
         "courtyard_line_width": 0.049999999999999996,
         "dimension_precision": 4,
         "dimension_units": 3,
@@ -26,12 +26,12 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.09999999999999999,
+        "other_line_width": 0.15,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
         "other_text_thickness": 0.15,
-        "other_text_upright": false,
+        "other_text_upright": true,
         "pads": {
           "drill": 0.762,
           "height": 1.524,
@@ -42,7 +42,7 @@
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
         "silk_text_thickness": 0.15,
-        "silk_text_upright": false,
+        "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
           "min_clearance": 0.508
@@ -55,7 +55,19 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|122965000|85582700|916ae373-5709-4afe-be98-16976bba5ebe|9ee931a1-5868-44db-90b2-44713a527b73",
+        "clearance|122965000|89392700|d5d73c30-45e3-42f4-85dc-fe34e915912e|17765498-0270-4281-942e-e0783214cab5",
+        "clearance|131442603|135486790|84134307-8875-4581-84fc-f5cb03f7ab57|5d6350db-a9fd-4195-a190-e19706211494",
+        "clearance|151498900|113818900|6076575d-05bb-447f-b0d4-4098f750080b|ce293cc3-67a7-4000-9875-8246792f776a",
+        "clearance|151498900|113818900|9d4c2871-ac2a-431e-8e91-8d7e4ca9c040|368c2945-497a-464e-8942-bc985dfc9813",
+        "courtyards_overlap|135475000|62710000|3ad775eb-fbe9-4444-9f30-cd33c7410e4d|f4b5e6e1-2c1f-4b94-a041-c487ea874fc6",
+        "courtyards_overlap|144025000|55060000|38d98eef-5c54-4834-bb1d-5180282dd0d0|f4b5e6e1-2c1f-4b94-a041-c487ea874fc6",
+        "courtyards_overlap|180890000|78550000|d4c5ac87-38ee-4ff6-b4f7-4d5699119119|f4b5e6e1-2c1f-4b94-a041-c487ea874fc6",
+        "courtyards_overlap|180890000|88835000|0b8c718f-30fb-4245-be11-615dad1fe1f5|f4b5e6e1-2c1f-4b94-a041-c487ea874fc6",
+        "courtyards_overlap|187020000|87940000|efff4b5d-72e6-4ed4-a3d3-ffb992b3bfa5|f4b5e6e1-2c1f-4b94-a041-c487ea874fc6",
+        "courtyards_overlap|187530000|82315000|d70edba2-f381-41ec-8312-b50c2bac01b3|f4b5e6e1-2c1f-4b94-a041-c487ea874fc6"
+      ],
       "meta": {
         "version": 2
       },
@@ -64,11 +76,12 @@
         "clearance": "error",
         "copper_edge_clearance": "error",
         "courtyards_overlap": "error",
-        "diff_pair_gap_out_of_range": "error",
-        "diff_pair_uncoupled_length_too_long": "error",
+        "diff_pair_gap_out_of_range": "ignore",
+        "diff_pair_uncoupled_length_too_long": "ignore",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -85,8 +98,9 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_over_copper": "error",
-        "silk_overlap": "error",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -97,27 +111,43 @@
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
+      "rule_severitieslegacy_courtyards_overlap": true,
+      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.13,
         "min_copper_edge_clearance": 0.01,
         "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.39999999999999997
+        "min_via_diameter": 0.39999999999999997,
+        "use_height_for_length_calcs": true
       },
       "track_widths": [
         0.0,
+        0.2,
+        0.25,
         0.3,
         0.35,
-        0.4
+        0.4,
+        0.45,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        1.2,
+        1.3,
+        1.4,
+        1.5,
+        1.6,
+        1.8
       ],
       "via_dimensions": [
         {
@@ -129,8 +159,20 @@
           "drill": 0.3
         },
         {
-          "diameter": 0.8,
+          "diameter": 0.7,
           "drill": 0.4
+        },
+        {
+          "diameter": 1.6,
+          "drill": 0.8
+        },
+        {
+          "diameter": 2.6,
+          "drill": 1.4
+        },
+        {
+          "diameter": 4.0,
+          "drill": 2.0
         }
       ],
       "zones_allow_external_fillets": false,
@@ -319,6 +361,7 @@
     ],
     "rule_severities": {
       "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
       "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
@@ -337,7 +380,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -351,14 +394,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Sensors_V2.kicad_pro",
+    "filename": "uEFI_rev3.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.152,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -371,31 +414,32 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 5.0
       }
     ],
     "meta": {
-      "version": 0
+      "version": 2
     },
     "net_colors": null
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
-      "idf": "",
+      "gencad": "STM32F_rev3.cad",
+      "idf": "../build/3d/STM32F_rev3.emn",
       "netlist": "",
-      "specctra_dsn": "",
-      "step": "Sensors_V2.step",
-      "vrml": ""
+      "specctra_dsn": "../build/3d/STM32F_rev3.dsn",
+      "step": "../build/STM32F_rev3.step",
+      "vrml": "../build/3d/STM32F_rev3.wrl"
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
+    "annotate_start_num": 0,
     "drawing": {
       "default_bus_thickness": 12.0,
-      "default_junction_size": 40.0,
+      "default_junction_size": 36.0,
       "default_line_thickness": 6.0,
-      "default_text_size": 50.0,
+      "default_text_size": 35.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
@@ -404,23 +448,27 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
+      "label_size_ratio": 0.3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 0
+      "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "Pcbnew",
     "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
       "meta": {
         "version": 0
       },
-      "model_mode": 0
+      "model_mode": 0,
+      "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "/home/fdsoftware/Escritorio/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -428,8 +476,28 @@
   },
   "sheets": [
     [
-      "74961765-ce22-4e3c-9c33-9d69cada47ec",
+      "b282ce4b-c3d0-4c94-b06c-73b92bb672a9",
       ""
+    ],
+    [
+      "00000000-0000-0000-0000-00005f782f71",
+      "connector"
+    ],
+    [
+      "00000000-0000-0000-0000-00005f54b134",
+      "Sensores"
+    ],
+    [
+      "00000000-0000-0000-0000-00005fa9324b",
+      "Sheet5FA9324A"
+    ],
+    [
+      "8d3d2293-e570-4555-b12b-74c389ae5124",
+      "CKP/CMP_sensors"
+    ],
+    [
+      "b1829a8d-2693-4ef4-b38b-2a2550c6ec35",
+      "PWM/Relays"
     ]
   ],
   "text_variables": {}

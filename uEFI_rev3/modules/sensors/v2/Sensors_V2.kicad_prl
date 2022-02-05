@@ -1,19 +1,16 @@
 {
   "board": {
-    "active_layer": 1,
-    "active_layer_preset": "Default_OpenEFI",
+    "active_layer": 0,
+    "active_layer_preset": "",
     "auto_track_width": true,
-    "hidden_nets": [
-      "+5V",
-      "+12VA"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6600000262260437
+      "zones": 0.6
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
@@ -40,7 +37,7 @@
       8,
       9,
       10,
-      12,
+      11,
       13,
       14,
       15,
@@ -57,19 +54,19 @@
       26,
       27,
       28,
-      29,
-      30,
       32,
       33,
       34,
       35,
-      36
+      36,
+      37,
+      38
     ],
-    "visible_layers": "ffcffff_ffffffff",
+    "visible_layers": "7fdffff_80000001",
     "zone_display_mode": 1
   },
   "meta": {
-    "filename": "µEFI_rev2.kicad_prl",
+    "filename": "Sensors_V2.kicad_prl",
     "version": 3
   },
   "project": {
