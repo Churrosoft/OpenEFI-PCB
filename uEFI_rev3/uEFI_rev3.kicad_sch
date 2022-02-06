@@ -6,8 +6,8 @@
 
   (title_block
     (title "uEFI")
-    (date "2022-01-10")
-    (rev "v3")
+    (date "%%date%%")
+    (rev "v3-%%version%%")
     (company "Churrosoft")
     (comment 1 "MIT Licence")
   )
