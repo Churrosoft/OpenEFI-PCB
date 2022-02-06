@@ -1,6 +1,3 @@
 [submodule "library"]
 	path = library
 	url = git@github.com:openefi/KiCAD.git
-[submodule "InteractiveHtmlBom"]
-	path = InteractiveHtmlBom
-	url = git@github.com:openscopeproject/InteractiveHtmlBom.git
