@@ -50,6 +50,6 @@ filters:
 # This imports the KiBot scripts that actually do all the generation. If you want to
 # generate different things/more things then change these to point to other .kibot.yaml files.
 import:
-  - file: includes/documentation-2layer.kibot.yaml
-  - file: includes/JLCPCB-2layer.kibot.yaml
-  - file: includes/PCBWay-2layer.kibot.yaml
+  - includes/documentation-2layer.kibot.yaml
+  - includes/JLCPCB-2layer.kibot.yaml
+  - includes/PCBWay-2layer.kibot.yaml

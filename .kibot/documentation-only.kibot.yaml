@@ -48,4 +48,4 @@ filters:
 # This imports the KiBot scripts that actuall do all the generation. If you want to
 # generate different things/more things then change these to point to other .kibot.yaml files.
 import:
-  - includes/documentation-2layer.kibot.yaml
+  - "includes/documentation-2layer.kibot.yaml"
