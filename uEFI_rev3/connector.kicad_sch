@@ -2386,7 +2386,7 @@
     (uuid 00000000-0000-0000-0000-00005f782e31)
     (property "Reference" "U6" (id 0) (at 101.6 105.029 0))
     (property "Value" "LT4363IMS" (id 1) (at 101.6 107.3404 0))
-    (property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" (id 2) (at 101.6 113.03 0)
+    (property "Footprint" "Package_SO:MSOP-12_3x4mm_P0.65mm" (id 2) (at 101.6 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://ar.mouser.com/datasheet/2/609/ADuM4160-1503590.pdf" (id 3) (at 100.33 113.03 0)

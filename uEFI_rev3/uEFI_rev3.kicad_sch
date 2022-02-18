@@ -6298,7 +6298,7 @@
     (property "Value" "Tag connect" (id 1) (at 26.67 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" (id 2) (at 30.48 74.295 0)
+    (property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical" (id 2) (at 30.48 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 30.48 74.295 0)
@@ -8719,6 +8719,18 @@
     (path "/00000000-0000-0000-0000-00005f54b134/e4b7cff2-d883-48bd-82a9-00ecae128736"
       (reference "#PWR0155") (unit 1) (value "+5VA") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005f54b134/2172021a-baf5-4d79-b416-4afde47adedf"
+      (reference "#PWR0156") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f54b134/66dcc784-e0b4-4171-b6ec-1825faa8db59"
+      (reference "#PWR0157") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f54b134/ceeec85b-d741-447a-898f-58717438213d"
+      (reference "#PWR0158") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f54b134/f67ec8d5-4fdb-4d3c-8eba-db9fddd171dd"
+      (reference "#PWR0159") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005f782f71/190e9592-48dd-4b90-9899-59eb2e2f6bcb"
       (reference "#PWR0168") (unit 1) (value "+5VA") (footprint "")
     )
@@ -8748,18 +8760,6 @@
     )
     (path "/00000000-0000-0000-0000-00005f54b134/09aae76b-3654-4de1-9b7d-ab37f9bda77f"
       (reference "#PWR0179") (unit 1) (value "+12VA") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005f54b134/2172021a-baf5-4d79-b416-4afde47adedf"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005f54b134/66dcc784-e0b4-4171-b6ec-1825faa8db59"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005f54b134/ceeec85b-d741-447a-898f-58717438213d"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005f54b134/f67ec8d5-4fdb-4d3c-8eba-db9fddd171dd"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/3e78334a-76d9-456e-9704-a5183b512842"
       (reference "C1") (unit 1) (value "240pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -9065,7 +9065,7 @@
       (reference "J1") (unit 1) (value "USB_B") (footprint "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005f80f0b0"
-      (reference "J2") (unit 1) (value "Tag connect") (footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
+      (reference "J2") (unit 1) (value "Tag connect") (footprint "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005f782f71/95a84c7f-8427-45aa-aa8d-5b08de5cde34"
       (reference "J3") (unit 1) (value "36638-0002") (footprint "366380002")
@@ -9479,7 +9479,7 @@
       (reference "U5") (unit 1) (value "MIC2940A-5.0WT") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005f782f71/00000000-0000-0000-0000-00005f782e31"
-      (reference "U6") (unit 1) (value "LT4363IMS") (footprint "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm")
+      (reference "U6") (unit 1) (value "LT4363IMS") (footprint "Package_SO:MSOP-12_3x4mm_P0.65mm")
     )
     (path "/28196d4b-da70-496d-ae92-668c3fafb50d"
       (reference "U7") (unit 1) (value "25LCxxx") (footprint "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm")
