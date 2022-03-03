@@ -2120,6 +2120,10 @@
     (effects (font (size 0.889 0.889)) (justify left bottom))
     (uuid 78d0f6db-c551-43ee-a14c-a23995d77b10)
   )
+  (text "change to 0.01uf?" (at 128.27 123.825 0)
+    (effects (font (size 0.889 0.889)) (justify left bottom))
+    (uuid b7f7af16-341c-4870-b7fc-322005af5415)
+  )
 
   (global_label "L1" (shape input) (at 221.615 90.17 0)
     (effects (font (size 0.889 0.889)) (justify left))

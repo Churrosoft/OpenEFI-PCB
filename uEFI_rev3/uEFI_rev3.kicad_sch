@@ -8071,7 +8071,7 @@
     (uuid e2d50b7e-967b-4011-b493-b0a5504b221c)
     (property "Reference" "R35" (id 0) (at 25.908 93.1418 90))
     (property "Value" "100k" (id 1) (at 25.908 90.8304 90))
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 25.908 86.106 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 25.908 86.106 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 25.908 87.884 0)
@@ -9445,7 +9445,7 @@
       (reference "R34") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/e2d50b7e-967b-4011-b493-b0a5504b221c"
-      (reference "R35") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R35") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/4c76534b-7710-410b-a4ce-3373d2652982"
       (reference "R36") (unit 1) (value "28.6k +-1%") (footprint "Resistor_SMD:R_0603_1608Metric")
