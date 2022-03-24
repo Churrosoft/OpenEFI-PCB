@@ -53,6 +53,12 @@ jobs:
       # Check out the files
       - uses: actions/checkout@v2
 
+      - name: pull kicad deeps
+        run:
+          add-apt-repository --yes ppa:kicad/kicad-6.0-releases
+          apt update
+          apt install --install-recommends kicad
+
       # Get the version of the GitHub release for use later. This is only valid
       # when run in a release context
       - name: Get GitHub release version
