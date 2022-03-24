@@ -56,8 +56,8 @@ jobs:
       - name: pull kicad deeps
         run:
           add-apt-repository --yes ppa:kicad/kicad-6.0-releases
-          apt update
-          apt install --install-recommends kicad
+          apt update --yes
+          apt install --install-recommends kicad --yes
 
       # Get the version of the GitHub release for use later. This is only valid
       # when run in a release context
