@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "uEFI")
-    (date "%%date%%")
-    (rev "%%version%%")
+    (date "%%date%%" )
+    (rev "%%version%%" )
     (company "Churrosoft")
     (comment 1 "MIT Licence")
   )
