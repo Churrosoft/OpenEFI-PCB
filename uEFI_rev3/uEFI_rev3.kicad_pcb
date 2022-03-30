@@ -13273,7 +13273,7 @@
       (net 93 "L4") (pinfunction "OUT2") (pintype "output") (tstamp bdc7bb7b-742a-4113-9894-25d02b6c0786))
     (pad "33" smd rect locked (at 0 0) (size 4.953 4.953) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (tstamp d6e91208-abe8-4e7f-880d-332d7e0dfa38))
-    (model "/home/fdsoftware/repos/churrosoft/openefi/OpenEFI-PCB/library/OpenEFI-STM32F_rev3.pretty/models/MCZ33810EK.STEP"
+    (model "./library/OpenEFI-STM32F_rev3.pretty/models/MCZ33810EK.STEP"
       (offset (xyz 0 0 1.25))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))

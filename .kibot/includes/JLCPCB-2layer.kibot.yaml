@@ -130,7 +130,6 @@ outputs:
     type: position
     dir: JLCPCB
     options:
-      variant: rotated
       output: "%f_cpl_jlc.%x"
       format: CSV
       units: millimeters
@@ -156,7 +155,6 @@ outputs:
     dir: JLCPCB
     options:
       output: "%f_%i_jlc.%x"
-      exclude_filter: only_jlc_parts
       ref_separator: ","
       columns:
         - field: Value

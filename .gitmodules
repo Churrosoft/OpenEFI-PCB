@@ -1,3 +1,3 @@
-[submodule "library"]
-	path = library
-	url =  https://github.com/openefi/KiCAD.git
+[submodule "uEFI_rev3/library"]
+	path = uEFI_rev3/library
+	url = https://github.com/openefi/KiCAD.git
