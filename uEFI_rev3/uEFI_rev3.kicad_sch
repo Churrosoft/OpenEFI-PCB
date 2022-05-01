@@ -8904,6 +8904,9 @@
     (path "/276ef234-ef46-45e1-8284-b23ccabe3e2c"
       (reference "#PWR0161") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/8d3d2293-e570-4555-b12b-74c389ae5124/7b980daf-5509-4cf8-9af9-36fd13e00624"
+      (reference "#PWR0162") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005f782f71/190e9592-48dd-4b90-9899-59eb2e2f6bcb"
       (reference "#PWR0168") (unit 1) (value "+5VA") (footprint "")
     )
@@ -8927,9 +8930,6 @@
     )
     (path "/8d3d2293-e570-4555-b12b-74c389ae5124/83a605ab-059d-45f9-a020-3033bfecebab"
       (reference "#PWR0177") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8d3d2293-e570-4555-b12b-74c389ae5124/8e277249-c3b1-4542-9372-860272f08804"
-      (reference "#PWR0178") (unit 1) (value "+5VA") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/09aae76b-3654-4de1-9b7d-ab37f9bda77f"
       (reference "#PWR0179") (unit 1) (value "+12VA") (footprint "")
@@ -9318,11 +9318,11 @@
     (path "/00000000-0000-0000-0000-00005f782f71/6ff1131e-9ac7-43af-90e8-b7a0a70a8520"
       (reference "Q5") (unit 1) (value "SS8050") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/00000000-0000-0000-0000-00005f782f71/00000000-0000-0000-0000-00005f786a09"
-      (reference "Q6") (unit 1) (value "IRF540N") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
+    (path "/00000000-0000-0000-0000-00005f782f71/670b0a88-a0f2-4e89-98a4-a55062c42d4b"
+      (reference "Q6") (unit 1) (value "IRLZ44N") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
-    (path "/00000000-0000-0000-0000-00005f782f71/00000000-0000-0000-0000-00005f78e5df"
-      (reference "Q7") (unit 1) (value "IRF540N") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
+    (path "/00000000-0000-0000-0000-00005f782f71/5931abef-eda7-4db3-a71c-c557bd951359"
+      (reference "Q7") (unit 1) (value "IRLZ44N") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/826ae118-da13-4ba2-aebc-02e0a930b5d6"
       (reference "Q8") (unit 1) (value "SS8050") (footprint "Package_TO_SOT_SMD:SOT-23")
