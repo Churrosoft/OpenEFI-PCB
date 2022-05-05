@@ -8907,6 +8907,9 @@
     (path "/8d3d2293-e570-4555-b12b-74c389ae5124/7b980daf-5509-4cf8-9af9-36fd13e00624"
       (reference "#PWR0162") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/8d3d2293-e570-4555-b12b-74c389ae5124/4aa68ba3-5871-4639-87fe-85c50d1427a6"
+      (reference "#PWR0163") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005f782f71/190e9592-48dd-4b90-9899-59eb2e2f6bcb"
       (reference "#PWR0168") (unit 1) (value "+5VA") (footprint "")
     )
