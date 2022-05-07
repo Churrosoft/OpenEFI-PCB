@@ -17166,10 +17166,10 @@
       (net 1 "GND") (pinfunction "MH1") (pintype "passive") (tstamp 4a0f5aa2-dc90-45bc-92c8-08b15e5cfcbd))
     (pad "MH2" thru_hole circle locked (at 19.15 -17 180) (size 4.125 4.125) (drill 2.75) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "MH2") (pintype "passive") (tstamp 4420e81a-bf00-47fa-8243-c1c4852e597a))
-    (model "36638-0002.stp"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/library/OpenEFI-STM32F_rev3.pretty/models/36638-0002.stp"
+      (offset (xyz 84.5 -32 8))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 -90))
     )
   )
 
