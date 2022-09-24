@@ -8595,6 +8595,9 @@
     (path "/00000000-0000-0000-0000-00005f54b134/0bc1882e-d322-41c5-a486-8192c20ef5b9"
       (reference "#PWR042") (unit 1) (value "GNDA") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005f54b134/19cd5251-6729-4ebe-bb0c-048a660a9682"
+      (reference "#PWR043") (unit 1) (value "+5C") (footprint "")
+    )
     (path "/1333e0eb-d6cf-4b8a-8a97-298ded665b45"
       (reference "#PWR044") (unit 1) (value "+3V3") (footprint "")
     )
@@ -8628,11 +8631,17 @@
     (path "/2c16ee04-21c6-43fc-932e-aeb612e413ae"
       (reference "#PWR054") (unit 1) (value "GND") (footprint "")
     )
+    (path "/8d3d2293-e570-4555-b12b-74c389ae5124/b9e4181c-869d-4d95-bb71-881cdc72d5ea"
+      (reference "#PWR055") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005f54b134/1b483365-e24f-40e5-b4c1-401303389a68"
       (reference "#PWR056") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/3f810f62-abf1-40fe-b001-86b44cbcadb8"
       (reference "#PWR057") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/8d3d2293-e570-4555-b12b-74c389ae5124/cfae0e21-0966-4ddb-90c1-71dc58c35984"
+      (reference "#PWR058") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/6f9e6eea-f1a5-4e59-a7b8-03098e367ddb"
       (reference "#PWR060") (unit 1) (value "+5C") (footprint "")
@@ -9057,6 +9066,9 @@
     (path "/00000000-0000-0000-0000-00005f54b134/e98f37a2-6550-4084-a6a1-6c9a68f1f029"
       (reference "C40") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
+    (path "/8d3d2293-e570-4555-b12b-74c389ae5124/6dbe326c-ca5f-48e5-826c-48d2ea9425f1"
+      (reference "C41") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
     (path "/00000000-0000-0000-0000-00005f54b134/00000000-0000-0000-0000-00006090d894"
       (reference "C49") (unit 1) (value "240pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -9119,6 +9131,9 @@
     )
     (path "/179dfdb6-c742-43ad-b46b-37ef29e81c5f"
       (reference "D13") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/8d3d2293-e570-4555-b12b-74c389ae5124/a4a8e985-877d-4bd9-a196-a3be8d47becb"
+      (reference "D14") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/36d4577c-93b8-425e-bae5-ab676247b4dd"
       (reference "D15") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
@@ -9284,6 +9299,9 @@
     )
     (path "/00000000-0000-0000-0000-00005f54b134/54f05ba2-f48d-421b-a91e-798231b73c57"
       (reference "JP10") (unit 1) (value "Jumper_NC_Small") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
+    )
+    (path "/8d3d2293-e570-4555-b12b-74c389ae5124/a5be5bec-cc8f-4a92-bc22-d912d0367587"
+      (reference "JP11") (unit 1) (value "vr/hall") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm_NumberLabels")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/d6267da2-050b-46f8-a547-a1ff3c4114a3"
       (reference "JP12") (unit 1) (value "Jumper_NC_Small") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
@@ -9521,6 +9539,9 @@
     )
     (path "/19bf568f-181b-4c09-a22d-a5526a3f0fcf"
       (reference "R59") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/8d3d2293-e570-4555-b12b-74c389ae5124/1a9ffc65-a5f0-4f7a-b880-8295bbe4275a"
+      (reference "R60") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/8d3d2293-e570-4555-b12b-74c389ae5124/e0fc2163-36fb-474e-ad23-a39c6993b4e6"
       (reference "R81") (unit 1) (value "4.99K 1/2W") (footprint "Resistor_SMD:R_1210_3225Metric")
