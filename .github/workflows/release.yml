@@ -43,11 +43,11 @@ jobs:
 
     - name: Run ERC
       run: |
-        make -C uEFI_rev3/ erc config=.kibot/release.kibot.yaml
+        make -C uEFI_rev3/ erc config=../.kibot/release.kibot.yaml
     - name: Retrieve results
       uses: actions/upload-artifact@v1
       with:
-        config: .kibot/release.kibot.yaml
+        config: ../.kibot/release.kibot.yaml
         name: ERC_Output
         path: uEFI_rev3/Fabrication
 
@@ -67,11 +67,11 @@ jobs:
 
     - name: Run DRC
       run: |
-        make -C uEFI_rev3/ drc config=.kibot/release.kibot.yaml
+        make -C uEFI_rev3/ drc config=../.kibot/release.kibot.yaml
     - name: Retrieve results
       uses: actions/upload-artifact@v1
       with:
-        config: .kibot/release.kibot.yaml
+        config: ../.kibot/release.kibot.yaml
         name: DRC_Output
         path: uEFI_rev3/Fabrication
 
@@ -92,11 +92,11 @@ jobs:
 
     - name: Run schematic stuff
       run: |
-        make -C uEFI_rev3/ sch_fab config=.kibot/release.kibot.yaml
+        make -C uEFI_rev3/ sch_fab config=../.kibot/release.kibot.yaml
     - name: Retrieve results
       uses: actions/upload-artifact@v1
       with:
-        config: .kibot/release.kibot.yaml
+        config: ../.kibot/release.kibot.yaml
         name: FabSch_Output
         path: uEFI_rev3/Fabrication
 
@@ -117,10 +117,10 @@ jobs:
 
     - name: Run PCB stuff
       run: |
-        make -C uEFI_rev3/ pcb_fab config=.kibot/release.kibot.yaml
+        make -C uEFI_rev3/ pcb_fab config=../.kibot/release.kibot.yaml
     - name: Retrieve results
       uses: actions/upload-artifact@v1
       with:
-        config: .kibot/release.kibot.yaml
+        config: ../.kibot/release.kibot.yaml
         name: FabPCB_Output
         path: uEFI_rev3/Fabrication
