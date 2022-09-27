@@ -43,7 +43,7 @@ jobs:
 
     - name: Run ERC
       run: |
-        make -C uEFI_rev3/ erc
+        make -C uEFI_rev3/ erc config=.kibot/release.kibot.yaml
     - name: Retrieve results
       uses: actions/upload-artifact@v1
       with:
@@ -67,7 +67,7 @@ jobs:
 
     - name: Run DRC
       run: |
-        make -C uEFI_rev3/ drc
+        make -C uEFI_rev3/ drc config=.kibot/release.kibot.yaml
     - name: Retrieve results
       uses: actions/upload-artifact@v1
       with:
@@ -92,7 +92,7 @@ jobs:
 
     - name: Run schematic stuff
       run: |
-        make -C uEFI_rev3/ sch_fab
+        make -C uEFI_rev3/ sch_fab config=.kibot/release.kibot.yaml
     - name: Retrieve results
       uses: actions/upload-artifact@v1
       with:
@@ -117,7 +117,7 @@ jobs:
 
     - name: Run PCB stuff
       run: |
-        make -C uEFI_rev3/ pcb_fab
+        make -C uEFI_rev3/ pcb_fab config=.kibot/release.kibot.yaml
     - name: Retrieve results
       uses: actions/upload-artifact@v1
       with:
