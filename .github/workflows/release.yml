@@ -24,7 +24,7 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: Submodule
-        path: uEFI_rev3
+        path: uEFI_rev3/library
 
 
   ERC:
