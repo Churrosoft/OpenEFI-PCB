@@ -47,6 +47,7 @@ jobs:
     - name: Retrieve results
       uses: actions/upload-artifact@v1
       with:
+        config: .kibot/release.kibot.yaml
         name: ERC_Output
         path: uEFI_rev3/Fabrication
 
@@ -70,6 +71,7 @@ jobs:
     - name: Retrieve results
       uses: actions/upload-artifact@v1
       with:
+        config: .kibot/release.kibot.yaml
         name: DRC_Output
         path: uEFI_rev3/Fabrication
 
@@ -94,6 +96,7 @@ jobs:
     - name: Retrieve results
       uses: actions/upload-artifact@v1
       with:
+        config: .kibot/release.kibot.yaml
         name: FabSch_Output
         path: uEFI_rev3/Fabrication
 
@@ -118,5 +121,6 @@ jobs:
     - name: Retrieve results
       uses: actions/upload-artifact@v1
       with:
+        config: .kibot/release.kibot.yaml
         name: FabPCB_Output
         path: uEFI_rev3/Fabrication
