@@ -1,0 +1,218 @@
+# MIT License
+
+# Copyright (c) 2021 Neil Enns
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+# This workflow generates documentation (PDFs, interactive BOMs, board images) and fabrication
+# files for JLCPCB and PCBWay. The version number and date of the design is automatically
+# updated in the schematic file and on the PCB based on the GitHub release version and date.
+
+# To use this workflow in your own repo you need to edit the environment variables in the env: section
+# below.
+name: "KiBot - Release"
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Design version"
+        required: true
+        default: "pre-release"
+
+jobs:
+  FabricationAndDocumentation:
+    env:
+      # Set this to your local timezone. See https://www.wikiwand.com/en/List_of_tz_database_time_zones for valid strings.
+      Timezone: America/Los_Angeles
+      # Set this to the output folder for all of the generated files. Unless you have a very
+      # good reason to change this you should leave it as KiBotOutput.
+      OutputFolder: KiBotOutput
+    runs-on: ubuntu-latest
+
+    # These are all the steps that generate the files.
+    steps:
+      # Check out the files
+      - uses: actions/checkout@v2
+
+      - name: pull kicad deeps
+        run: |
+          sudo add-apt-repository ppa:kicad/kicad-6.0-releases --yes
+          sudo apt update --yes
+          sudo apt install kicad --yes
+      
+      - name: Build deeps
+        run: |
+          sudo apt install curl make wget python3-pip python3-distutils xdotool xsltproc imagemagick xclip xvfb inkscape --yes
+          sudo apt install recordmydesktop --yes
+
+      - name: Setup KiAuto
+        run: |
+          git clone https://github.com/INTI-CMNB/KiAuto.git
+          cd KiAuto
+          sudo pip3 install xvfbwrapper
+          sudo python3 setup.py install
+          cd ..
+
+      - name: Setup KiBom
+        run: |
+          git clone https://github.com/INTI-CMNB/KiBoM.git
+          cd KiBoM
+          sudo python3 setup.py install
+          cd ..
+
+      - name: Setup HTMLBoom
+        run: |
+          wget https://github.com/INTI-CMNB/InteractiveHtmlBom/releases/download/v2.4.1/interactivehtmlbom.inti-cmnb_2.4.1-1_all.deb
+          sudo apt install ./interactivehtmlbom.inti-cmnb_2.4.1-1_all.deb
+      
+      - name: Setup PCBDraw
+        run: |
+          sudo pip3 install PcbDraw
+
+      - name: Setup KiBot
+        run: |
+          curl -s https://api.github.com/repos/INTI-CMNB/kicad-git-filters/releases/latest | grep "browser_download_url.*deb" | cut -d : -f 2,3 | tr -d \" | wget -i -
+          sudo apt -y install --no-install-recommends ./*.deb
+          sudo pip3 install --no-compile git+https://github.com/INTI-CMNB/KiBot.git
+
+      # Get the version of the GitHub release for use later. This is only valid
+      # when run in a release context
+      - name: Get GitHub release version
+        id: get_github_version
+        uses: battila7/get-version-action@v2.0.0
+        if: startsWith(github.ref, 'refs/tags/')
+
+      - name: Store GitHub release version
+        id: save_github_version
+        run: echo "version=${{ steps.get_github_version.outputs.version }}" >> $GITHUB_ENV
+        if: startsWith(github.ref, 'refs/tags/')
+
+      - name: Pull git deps
+        run: git submodule update --init --recursive
+
+      # Get the version from the workflow input. This is only valid
+      # when run manually as a workflow.
+      - name: Store workflow version
+        id: save_workflow_version
+        run: echo "version=${{ github.event.inputs.version }}" >> $GITHUB_ENV
+        if: startsWith(github.ref, 'refs/tags/') == false
+
+      # Get the current date and time, in the timezone specified above, for use later.
+      - name: Get current date and time
+        id: date
+        run: echo "::set-output name=date::$(TZ='${{ env.Timezone }}' date +'%Y-%m-%d %T')"
+
+      # Do a string replacement in the schematic file to set the version and date.
+      # Any instance of %%version%% in the schematic gets replaced with the release version.
+      # Any instance of %%date%% in the schematic gets replaced with the release date and time.
+      - name: Set schematic version
+        uses: jacobtomlinson/gha-find-replace@v1
+        with:
+          include: ".*.sch"
+          find: "%%version%%"
+          replace: ${{ env.version }}
+
+      - name: Set schematic date
+        uses: jacobtomlinson/gha-find-replace@v1
+        with:
+          include: ".*.sch"
+          find: "%%date%%"
+          replace: ${{ steps.date.outputs.date }}
+
+      # Do a string replacement in the PCB file to set the version and date.
+      # Any instance of %%version%% in the schematic gets replaced with the release version.
+      # Any instance of %%date%% in the schematic gets replaced with the release date and time.
+      - name: Set PCB version
+        uses: jacobtomlinson/gha-find-replace@v1
+        with:
+          include: ".*.kicad_pcb"
+          find: "%%version%%"
+          replace: ${{ env.version }}
+
+      - name: Set PCB date in page settings
+        uses: jacobtomlinson/gha-find-replace@v1
+        with:
+          include: ".*.kicad_pcb"
+          find: "date %%date%%"
+          replace: 'date "${{ steps.date.outputs.date }}"'
+
+      - name: Set PCB date on PCB layers
+        uses: jacobtomlinson/gha-find-replace@v1
+        with:
+          include: ".*.kicad_pcb"
+          find: "%%date%%"
+          replace: '"${{ steps.date.outputs.date }}"'
+
+      - name: Set env vars
+        run: |
+          sudo mkdir -p /github/home/.config/kicad/6.0/ && sudo cp ./kicad_common.json /github/home/.config/kicad/6.0/kicad_common.json
+          export KICAD6_3DMODEL_DIR="/usr/share/kicad/3dmodels/"
+          export KICAD6_FOOTPRINT_DIR="/usr/share/kicad/footprints/"
+          export KICAD6_SYMBOL_DIR="/usr/share/kicad/symbols/"
+          export KICAD6_TEMPLATE_DIR="/usr/share/kicad/template/"
+
+      # Actually run KiBot to generate all the files. The KiBot script used is
+      # in the .kibot/release.kibot.yaml folder.
+      - name: Generate documentation and fabrication files
+        run: |
+          kibot -b uEFI_rev3/uEFI_rev3.kicad_pcb -e uEFI_rev3/uEFI_rev3.kicad_sch -d ${{ env.OutputFolder }} -c .kibot/release.kibot.yaml -vvv
+
+      # Install the zip command line tool to package up the output
+      - name: Install zip
+        uses: montudor/action-zip@v1
+
+      # Zip all the documentation. Any files in the BOM, PDFs, and Renders subfolder
+      # are automatically included.
+      - name: Zip documentation
+        run: zip -qq -r "../uEFI_rev3/uEFI_rev3-Documentation.zip" BOM PDFs Renders
+        working-directory: ${{ env.OutputFolder }}
+
+      # Zip the JLCPCB files. This is a special step for JLCPCB because there are gerbers (already zipped by KiBot),
+      # BOM, and position files for SMT fabrication.
+      #- name: Zip JLCPCB fabrication files
+      #  run: zip -qq -r "../uEFI_rev3/uEFI_rev3-JLCPCB.zip" uEFI_rev3/uEFI_rev3-JLCPCB.zip uEFI_rev3/uEFI_rev3_bom_jlc.csv uEFI_rev3/uEFI_rev3_cpl_jlc.csv
+      #  working-directory: ${{ env.OutputFolder }}/JLCPCB
+
+      # Upload all the zip files to the release. Note that the PCBWay zip was automatically created by KiBot
+      # since it doesn't have BOM or position files associated (like JLCPCB does) so the path to the file
+      # to upload is slightly different.
+      # If you are copying this to your own repo you'll want to remove the upload of the MobiFlight-Configuration
+      # zip file.
+      - name: Upload release files
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
+        with:
+          files: |
+            uEFI_rev3/uEFI_rev3-Documentation.zip
+            uEFI_rev3/uEFI_rev3-JLCPCB.zip
+            ${{ env.OutputFolder }}/PCBWay/uEFI_rev3/uEFI_rev3-PCBWay.zip
+
+      # Archive all the artifacts from output and attach to the action's results.
+      # This is so they're made available when this workflow is run manually from the
+      # GitHub actions page.
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: release_files
+          path: ${{ env.OutputFolder }}/**
