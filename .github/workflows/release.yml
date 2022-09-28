@@ -43,13 +43,8 @@ jobs:
 
     - name: Run ERC
       run: |
-        make -C uEFI_rev3/ erc config=../.kibot/release.kibot.yaml
-    - name: Retrieve results
-      uses: actions/upload-artifact@v1
-      with:
-        config: ../.kibot/release.kibot.yaml
-        name: ERC_Output
-        path: uEFI_rev3/Fabrication
+        echo disabled due bug
+
 
   DRC:
     runs-on: ubuntu-latest
