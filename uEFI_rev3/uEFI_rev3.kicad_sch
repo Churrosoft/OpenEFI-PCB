@@ -3875,6 +3875,10 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 8012d8ba-bdb2-4367-91b4-afb27caab39a)
   )
+  (wire (pts (xy 163.83 40.005) (xy 163.83 41.275))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 80b7d510-57be-45b0-afe9-8ed995c108ea)
+  )
   (wire (pts (xy 60.96 26.67) (xy 75.565 26.67))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 819f859f-a48f-43ac-a32f-617d3a46a9fa)
@@ -4496,6 +4500,10 @@
   (wire (pts (xy 35.56 153.035) (xy 35.56 154.305))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid d12d5575-6139-4943-92cc-6d141ba4d86a)
+  )
+  (wire (pts (xy 163.83 46.355) (xy 163.83 50.165))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid d1952aab-a0b7-4c97-8aba-9441a626e0df)
   )
   (wire (pts (xy 185.42 224.79) (xy 185.42 227.33))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -6538,6 +6546,22 @@
     (pin "2" (uuid b06a4000-b413-4502-8fc7-94eebc795bbd))
   )
 
+  (symbol (lib_id "power:GND") (at 163.83 50.165 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 0df50f59-0981-4c75-9182-aabf7e291901)
+    (property "Reference" "#PWR070" (id 0) (at 163.83 56.515 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 163.9443 54.4894 0))
+    (property "Footprint" "" (id 2) (at 163.83 50.165 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 163.83 50.165 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 465ca62d-a81e-47b2-b822-7c1952cba560))
+  )
+
   (symbol (lib_id "Device:LED") (at 374.015 201.93 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0ef672c1-b651-451c-9021-d2f2c53ed0f1)
@@ -6680,6 +6704,28 @@
     )
     (pin "1" (uuid 3e35376c-9e8d-47ad-999f-dec6a18afe4b))
     (pin "2" (uuid f2f3d168-0e66-49a8-b2c1-decf35c1bc99))
+  )
+
+  (symbol (lib_id "Device:CP_Small") (at 163.83 43.815 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 1feee1ca-03cf-42e2-a7c2-0e718be37bce)
+    (property "Reference" "C42" (id 0) (at 166.0652 42.6466 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100uF ±20% 35V" (id 1) (at 166.0652 44.958 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7" (id 2) (at 163.83 43.815 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 163.83 43.815 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C141427" (id 4) (at 163.83 43.815 0)
+      (effects (font (size 0.889 0.889)) hide)
+    )
+    (pin "1" (uuid 33ef9979-a92d-437f-adea-fd7b4e079e76))
+    (pin "2" (uuid fdbc3d34-6f75-41ef-aa5d-5e3e4efd458d))
   )
 
   (symbol (lib_id "Device:LED") (at 372.745 158.115 90) (unit 1)
@@ -7260,6 +7306,22 @@
     )
     (pin "1" (uuid 2dc197f8-a12d-47af-ae95-148bb9c1c799))
     (pin "2" (uuid ca1a3f59-111e-4fae-94fb-707416e6babb))
+  )
+
+  (symbol (lib_id "power:+12V") (at 163.83 40.005 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 6a695035-302a-4633-872f-d86fe3f64f9b)
+    (property "Reference" "#PWR059" (id 0) (at 163.83 43.815 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (id 1) (at 164.1983 35.6806 0))
+    (property "Footprint" "" (id 2) (at 163.83 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 163.83 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c42f2a88-39ed-48bd-a8b8-3c365e9e8dca))
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 321.31 206.375 0) (unit 1)
@@ -8643,6 +8705,9 @@
     (path "/8d3d2293-e570-4555-b12b-74c389ae5124/cfae0e21-0966-4ddb-90c1-71dc58c35984"
       (reference "#PWR058") (unit 1) (value "GND") (footprint "")
     )
+    (path "/6a695035-302a-4633-872f-d86fe3f64f9b"
+      (reference "#PWR059") (unit 1) (value "+12V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005f54b134/6f9e6eea-f1a5-4e59-a7b8-03098e367ddb"
       (reference "#PWR060") (unit 1) (value "+5C") (footprint "")
     )
@@ -8672,6 +8737,9 @@
     )
     (path "/00000000-0000-0000-0000-00005f54b134/b3190d69-7f24-4825-bdfe-3c3c45d7d411"
       (reference "#PWR069") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/0df50f59-0981-4c75-9182-aabf7e291901"
+      (reference "#PWR070") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/33b6552b-ec9a-44b7-995a-5c278ca4a586"
       (reference "#PWR071") (unit 1) (value "+5C") (footprint "")
@@ -9069,6 +9137,9 @@
     (path "/8d3d2293-e570-4555-b12b-74c389ae5124/6dbe326c-ca5f-48e5-826c-48d2ea9425f1"
       (reference "C41") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
+    (path "/1feee1ca-03cf-42e2-a7c2-0e718be37bce"
+      (reference "C42") (unit 1) (value "100uF ±20% 35V") (footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
+    )
     (path "/00000000-0000-0000-0000-00005f54b134/00000000-0000-0000-0000-00006090d894"
       (reference "C49") (unit 1) (value "240pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -9136,52 +9207,52 @@
       (reference "D14") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/36d4577c-93b8-425e-bae5-ab676247b4dd"
-      (reference "D15") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D15") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/43df4a53-5a75-4543-88d3-50cd7393567d"
-      (reference "D16") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D16") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/3e35f35b-de57-42a1-b66b-690d937f1fec"
-      (reference "D17") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D17") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/78a824b0-87dc-437f-a732-d014d3bc51a5"
-      (reference "D18") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D18") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/961d11cf-9d35-4dc0-aeb1-54327f99e8be"
-      (reference "D19") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D19") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/21de7dcb-5425-42bb-8c9a-3bfd52b7a51a"
-      (reference "D20") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D20") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/2b82281b-f421-4ecf-b0db-00934e89dd91"
-      (reference "D21") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D21") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/eaa007a4-c036-46e7-bd00-a1283bc87d20"
-      (reference "D22") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D22") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/8d3f1cc5-e6e3-4ecd-92fe-e11a349d591c"
-      (reference "D23") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D23") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/36ef3d3a-8f83-46bb-b29a-eea3c6d5118e"
-      (reference "D24") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D24") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/e82e2f0c-57f5-4439-8e3d-91cef29bd2c9"
-      (reference "D25") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D25") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/81a46c04-d71f-4df5-813e-004892d33c88"
-      (reference "D26") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D26") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/cdd5fa70-1ceb-4b29-a11e-53b81b7b46c1"
-      (reference "D27") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D27") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/10469210-faff-4618-8468-0de9fb7c59f8"
-      (reference "D28") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D28") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/2e71025c-185d-4e5d-83c0-a2bf07693edb"
-      (reference "D29") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D29") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005f54b134/377a7c0e-81de-4ed3-897a-8cba059786d4"
-      (reference "D30") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D30") (unit 1) (value "K26") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/b1829a8d-2693-4ef4-b38b-2a2550c6ec35/1dc2fd4e-3b86-436b-a8b5-0a3a743fc6a4"
       (reference "F1") (unit 1) (value "750mA") (footprint "Fuse:Fuse_0805_2012Metric")
