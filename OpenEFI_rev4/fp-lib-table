@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "STM32F rev3")(type "KiCad")(uri "./library/uEFI_rev3.pretty")(options "")(descr "")(disabled))
+  (lib (name "OpenEFI-STM32F_rev3")(type "KiCad")(uri "./library/OpenEFI-STM32F_rev3.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/lib_v3.2/Library.pretty")(options "")(descr ""))
+  (lib (name "uEFI_Library")(type "KiCad")(uri "${KIPRJMOD}/library/uEFI_Library.pretty")(options "")(descr ""))
+)
