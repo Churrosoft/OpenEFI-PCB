@@ -5,11 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "uEFI")
-    (date "%%date%%")
-    (rev "%%version%%")
-    (company "Churrosoft")
-    (comment 1 "MIT Licence")
+    (title "OpenEFI")
+    (date "2023-10-13")
+    (rev "4.0")
+    (company "Churrosoft®")
+    (comment 1 "CERN-OHL-S Licence")
   )
 
   (lib_symbols

@@ -544,7 +544,9 @@
       "Library",
       "uEFI_Library"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Library"
+    ]
   },
   "meta": {
     "filename": "uEFI_rev3.kicad_pro",
