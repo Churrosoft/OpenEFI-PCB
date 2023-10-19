@@ -6,7 +6,7 @@
 
   (title_block
     (title "OpenEFI")
-    (date "2023-10-13")
+    (date "2023-10-14")
     (rev "4.0")
     (company "Churrosoft®")
     (comment 1 "CERN-OHL-S Licence")
@@ -1961,6 +1961,9 @@
     (property "Datasheet" "~" (at 182.88 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C25804" (at 184.3787 77.5906 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 63033c44-0925-4ce7-a5dc-3842fe899472))
     (pin "2" (uuid e6e86744-03c0-45a2-b024-02e381d78bc0))
     (instances
@@ -2092,6 +2095,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 194.31 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C25804" (at 195.8087 80.1306 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0b6d6b50-f0c1-4ebd-b401-07ebd1bcd5e9))
