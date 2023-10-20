@@ -1315,6 +1315,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "CKP+" (shape input) (at 162.56 160.02 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 8fec1be6-7232-4d7c-b528-15d298880230)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 154.7645 159.9406 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "CKP+" (shape input) (at 93.345 152.4 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid fd964b55-4b02-4132-8582-633f046c90cd)
@@ -1510,8 +1517,8 @@
     (property "LCSC" "C100042" (at 81.915 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 79d3dc67-fd19-4df5-bc78-5dc66dcaa245))
-    (pin "2" (uuid 6d710027-ae28-4b41-8701-4ae49c790635))
+    (pin "1" (uuid cce7d394-f4bc-45ea-8861-0af413ef623c))
+    (pin "2" (uuid 2b733e11-000e-4474-a710-edf36ff75f46))
     (instances
       (project "OpenEFI_rev4"
         (path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9/8d3d2293-e570-4555-b12b-74c389ae5124"
@@ -1539,8 +1546,8 @@
     (property "LCSC" "C2974059" (at 87.63 123.825 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b901a3ce-83c0-4aa6-9df2-e70bea71b3c2))
-    (pin "2" (uuid c2179a02-561c-469e-9150-cd23da9501f4))
+    (pin "1" (uuid c2e97d9d-1c13-40c4-ae93-3f37c415aa43))
+    (pin "2" (uuid 777494a4-21dd-40f7-86c3-3f3eb2f38edc))
     (instances
       (project "OpenEFI_rev4"
         (path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9/8d3d2293-e570-4555-b12b-74c389ae5124"
@@ -1697,8 +1704,8 @@
     (property "LCSC" "C2974059" (at 87.63 103.505 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 22974a84-fcc5-461e-bfed-4ab9770189a3))
-    (pin "2" (uuid 446b3bb8-b758-43dc-b749-d2e294cf16e0))
+    (pin "1" (uuid 1de52692-394f-4c4d-8529-966f04359732))
+    (pin "2" (uuid 4b7f03ad-ffd6-45e5-9a21-c246252ae50b))
     (instances
       (project "OpenEFI_rev4"
         (path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9/8d3d2293-e570-4555-b12b-74c389ae5124"
@@ -1883,8 +1890,8 @@
     (property "Datasheet" "~" (at 108.585 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 59df6ee8-b724-4935-a79f-31691d85ce5a))
-    (pin "2" (uuid 68159521-d3fd-4cf1-b049-bac36442990b))
+    (pin "1" (uuid 9af3d9fa-80a5-4712-95f0-cdef60378245))
+    (pin "2" (uuid 1a904df1-2401-4bd4-b648-35709a146fbf))
     (instances
       (project "OpenEFI_rev4"
         (path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9/8d3d2293-e570-4555-b12b-74c389ae5124"
@@ -2292,8 +2299,8 @@
     (property "LCSC" "C407178" (at 108.585 109.22 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8be413a2-d1d7-4701-8021-f99e799e9f4a))
-    (pin "2" (uuid 667174fa-da84-4ed8-8cea-b990950a0ea5))
+    (pin "1" (uuid 4f8caf6a-eb71-460a-a7c6-a9f7e739926a))
+    (pin "2" (uuid a9af3784-65a4-409f-881d-7e4b1f67bea6))
     (instances
       (project "OpenEFI_rev4"
         (path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9/8d3d2293-e570-4555-b12b-74c389ae5124"
@@ -2321,8 +2328,8 @@
     (property "LCSC" "C100042" (at 117.475 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 117d687d-403a-4f1f-932c-1a5ec900c31e))
-    (pin "2" (uuid 98997d18-05b7-4655-b8b4-ac2560accb37))
+    (pin "1" (uuid e70dab2f-98e0-40f1-9be0-fb8371f8cf8d))
+    (pin "2" (uuid c6029135-d11c-480b-878c-27f44ef29e1c))
     (instances
       (project "OpenEFI_rev4"
         (path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9/8d3d2293-e570-4555-b12b-74c389ae5124"
