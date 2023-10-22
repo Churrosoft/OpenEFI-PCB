@@ -7994,7 +7994,7 @@
   )
 
   (symbol (lib_id "Graphic:Logo_Open_Hardware_Small") (at 389.89 262.89 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005faf676d)
     (property "Reference" "LOGO1" (at 389.89 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
