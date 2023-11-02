@@ -549,7 +549,7 @@
     ]
   },
   "meta": {
-    "filename": "uEFI_rev3.kicad_pro",
+    "filename": "OpenEFI_rev4.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -611,7 +611,7 @@
       "idf": "../build/3d/STM32F_rev3.emn",
       "netlist": "",
       "specctra_dsn": "../build/3d/STM32F_rev3.dsn",
-      "step": "../build/STM32F_rev3.step",
+      "step": "../../../../Escritorio/OpenEFI_rev4_wideband_4.step",
       "vrml": "../build/3d/STM32F_rev3.wrl"
     },
     "page_layout_descr_file": ""
