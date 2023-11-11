@@ -1,4 +1,4 @@
-(kicad_sch (version 20230121) (generator eeschema)
+(kicad_sch (version 20230819) (generator eeschema)
 
   (uuid 555e82ea-1f48-47c0-9d11-8a91e0f65a73)
 
@@ -13,7 +13,7 @@
   )
 
   (lib_symbols
-    (symbol "OpenEFI-STM32-rev3:TPL7407LAPWR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "OpenEFI-STM32-rev3:TPL7407LAPWR" (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -6.985 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -24,6 +24,9 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Description" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "TPL7407LAPWR_0_1"
@@ -99,7 +102,7 @@
         )
       )
     )
-    (symbol "power:+12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+12V" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -112,10 +115,10 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "Description" "Power symbol creates a global label with name \"+12V\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+12V\"" (at 0 0 0)
+      (property "ki_keywords" "power-flag" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "+12V_0_1"
@@ -151,7 +154,7 @@
         )
       )
     )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:GND" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -164,10 +167,10 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "Description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+      (property "ki_keywords" "power-flag" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "GND_0_1"
@@ -466,19 +469,23 @@
     (uuid f488208a-fc2a-49bb-85c6-c2efa33e1f86)
   )
 
-  (text "max 1.8A" (at 152.4 114.935 0)
+  (text "max 1.8A" (exclude_from_sim no)
+ (at 152.4 114.935 0)
     (effects (font (size 0.889 0.889)) (justify left bottom))
     (uuid 91d2f8b5-9529-42e3-b479-f230114ba651)
   )
-  (text "max 1.2A" (at 142.24 129.54 0)
+  (text "max 1.2A" (exclude_from_sim no)
+ (at 142.24 129.54 0)
     (effects (font (size 0.889 0.889)) (justify left bottom))
     (uuid a9e21be1-b08e-42f9-855c-c3a81edf8641)
   )
-  (text "SCH BIND" (at 266.7 126.365 0)
+  (text "SCH BIND" (exclude_from_sim no)
+ (at 266.7 126.365 0)
     (effects (font (size 2 2)) (justify right bottom))
     (uuid b3708b93-6761-48f8-bfab-42f85af6ef8b)
   )
-  (text "max 1.2A" (at 128.27 161.29 0)
+  (text "max 1.2A" (exclude_from_sim no)
+ (at 128.27 161.29 0)
     (effects (font (size 0.889 0.889)) (justify left bottom))
     (uuid b6ebd4ef-f6f6-48f2-99d8-7f83a3ff510d)
   )
@@ -639,7 +646,7 @@
   )
 
   (symbol (lib_id "power:+12V") (at 158.115 184.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b0e59b3-6be8-4f6a-8eb7-e2e31bd0620c)
     (property "Reference" "#PWR0129" (at 158.115 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -653,6 +660,9 @@
     (property "Datasheet" "" (at 158.115 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 158.115 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 393e2460-fd75-45c1-b9f2-e548fb10f85a))
     (instances
       (project "OpenEFI_rev4"
@@ -664,7 +674,7 @@
   )
 
   (symbol (lib_id "power:+12V") (at 156.21 140.97 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b164873c-f856-4c52-a454-bb22e221561b)
     (property "Reference" "#PWR0135" (at 156.21 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -678,6 +688,9 @@
     (property "Datasheet" "" (at 156.21 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 156.21 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 099c93c4-5d90-49f5-a10e-e32f27e6e0d2))
     (instances
       (project "OpenEFI_rev4"
@@ -689,7 +702,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 116.2558 188.4172 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b46227ee-e0b1-4571-aaa9-cdba48fcd89e)
     (property "Reference" "#PWR0122" (at 116.2558 194.7672 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -703,6 +716,9 @@
     (property "Datasheet" "" (at 116.2558 188.4172 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 116.2558 188.4172 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9e774b5d-5b7f-4768-9e44-675b92c9d7d3))
     (instances
       (project "OpenEFI_rev4"
@@ -714,7 +730,7 @@
   )
 
   (symbol (lib_id "OpenEFI-STM32-rev3:TPL7407LAPWR") (at 132.715 164.465 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e04d180c-16e0-40f0-9f97-12c8e15ca614)
     (property "Reference" "U22" (at 131.445 151.4918 0)
       (effects (font (size 1.27 1.27)))
@@ -726,6 +742,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 132.715 164.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 132.715 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C91443" (at 132.715 164.465 0)
@@ -757,7 +776,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 113.5126 145.2372 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f587c4b8-adcd-432d-91ac-a5e93cb01633)
     (property "Reference" "#PWR0130" (at 113.5126 151.5872 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -771,6 +790,9 @@
     (property "Datasheet" "" (at 113.5126 145.2372 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 113.5126 145.2372 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6773a881-5211-4e71-9012-b5c64e74d253))
     (instances
       (project "OpenEFI_rev4"
@@ -782,7 +804,7 @@
   )
 
   (symbol (lib_id "OpenEFI-STM32-rev3:TPL7407LAPWR") (at 130.81 120.65 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ff302b44-23dc-4076-bd3d-f1c694290a02)
     (property "Reference" "U20" (at 130.81 110.2168 0)
       (effects (font (size 1.27 1.27)))
@@ -794,6 +816,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 130.81 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 130.81 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C91443" (at 130.81 120.65 0)
