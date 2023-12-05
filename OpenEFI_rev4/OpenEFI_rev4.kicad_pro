@@ -259,6 +259,13 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
     "layer_presets": [
       {
         "activeLayer": -2,
@@ -770,7 +777,7 @@
   "sheets": [
     [
       "b282ce4b-c3d0-4c94-b06c-73b92bb672a9",
-      ""
+      "Raíz"
     ],
     [
       "00000000-0000-0000-0000-00005f782f71",
